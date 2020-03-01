@@ -11,7 +11,7 @@ Rather than simply setting the login/server/database details through a single ca
 
 First you setup a `ConnectionInfo` instance. In the example below I'm assuming that you already have a connection string instance in `cnString`:
 
-```C#
+{% highlight csharp %}
 var cn = new SqlConnectionStringBuilder(cnString)
 var ci = ConnectionInfo() {
     Type = ConnectionInfoType.SQL,
@@ -20,9 +20,9 @@ var ci = ConnectionInfo() {
     UserID = cn.UserID,
     Password = cn.Password,
     DatabaseName = cn.InitialCatalog};
-```
+{% endhighlight %}
 
-```VB.Net
+{% highlight vb %}
 Dim cn As New SqlConnectionStringBuilder(cnString)
 Dim ci As New ConnectionInfo() With {
     .Type = ConnectionInfoType.SQL, _
@@ -31,11 +31,11 @@ Dim ci As New ConnectionInfo() With {
     .UserID = cn.UserID, _
     .Password = cn.Password, _
     .DatabaseName = cn.InitialCatalog}
-```
+{% endhighlight %}
 
 Next you need to apply this connection info throughout your report. I have found that its necessary to do this on every database table, for both your main report and also all sub reports. To make this easy, I used a recursive method to do all the looping and assigning:
 
-```C#
+{% highlight csharp %}
 void SetConnection(
     ReportDocument rd,
     crConnectionInfo ci)
@@ -55,9 +55,9 @@ void SetConnection(
         }
     }
 }
-```
+{% endhighlight %}
 
-```VB.Net
+{% highlight vb %}
 Public Sub SetConnection(
     ByVal rd As ReportDocument,
     ByVal ci As crConnectionInfo)
@@ -79,7 +79,7 @@ Public Sub SetConnection(
     End If
 
 End Sub
-```
+{% endhighlight %}
 
 Notes:
 

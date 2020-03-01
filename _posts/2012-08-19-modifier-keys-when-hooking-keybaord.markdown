@@ -13,6 +13,8 @@ However I found that the instance of `KeyEventArgs` I was receiving in my event 
 
 The pertinent section of the original `globalKeyboardHook` class looks like this:
 
+
+{% highlight csharp %}
     public int hookProc(int code, int wParam, 
         ref keyboardHookStruct lParam) {
 
@@ -39,11 +41,13 @@ The pertinent section of the original `globalKeyboardHook` class looks like this
         }
         return CallNextHookEx(hhook, code, wParam, ref lParam);
     }
+{% endhighlight %}
 
 While this code does return a `KeyEventArgs`, there is no effort made to populate the modifier indicating properties on the class.
 
 Googling around on the problem (for quite a while!), I found another reference to another WinApi command, `GetKeyState` in [this CodeProject article](http://www.codeproject.com/Articles/14485/Low-level-Windows-API-hooks-from-C-to-stop-unwante). There is documentation for `GetKeyState` on the [MSDN Dev Center](http://msdn.microsoft.com/en-us/library/windows/desktop/ms646301%28v=vs.85%29.aspx). `GetKeyState` is declared as follows:
 
+{% highlight csharp %}
     /// <summary>
     /// Gets the state of modifier keys for a given keycode.
     /// </summary>
@@ -59,9 +63,11 @@ Googling around on the problem (for quite a while!), I found another reference t
     private const int VK_CONTROL = 0x11;
     private const int VK_MENU = 0x12;
     private const int VK_CAPITAL = 0x14;
+{% endhighlight %}
 
 We use a method to call GetKeyState for each vk constant above. It then adds each active key to the key code, so that, when KeyEventArgs is populated from keyCode, the modifier properties are set as we would expect.
 
+{% highlight csharp %}
     /// <summary>
     /// Checks whether Alt, Shift, Control or CapsLock
     /// is pressed at the same time as the hooked key.
@@ -83,9 +89,11 @@ We use a method to call GetKeyState for each vk constant above. It then adds eac
 
         return key;
     }
+{% endhighlight %}
 
 Finally this method is included in the original hook processing code:
 
+{% highlight csharp %}
     public int hookProc(int code, int wParam, ref keyboardHookStruct lParam) {
         if (code >= 0) {
 
@@ -98,6 +106,7 @@ Finally this method is included in the original hook processing code:
 
             KeyEventArgs kea = new KeyEventArgs(key);
         ...
+{% endhighlight %}
 
 The returned KeyEventArgs passed in the `KeyDown` and `KeyUp` events will now in include the correct values of the modifier properties.
 

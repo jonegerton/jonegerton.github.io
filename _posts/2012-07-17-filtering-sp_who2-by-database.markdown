@@ -11,6 +11,8 @@ The idea is to leverage the information provided by `sp_who2`, but provide a fil
 
 Lets call our version `sp_who2db`. The following should be run into your `master` database.
 
+
+{% highlight sql %}
     CREATE PROC [dbo].[sp_who2db] (@DBName VARCHAR(200))
     AS
     BEGIN
@@ -37,14 +39,19 @@ Lets call our version `sp_who2db`. The following should be run into your `master
         SELECT * FROM @who2 WHERE DBName = @DBName
 
     END
+{% endhighlight %}
 
 You can mark it is a system object using the undocumented `sp_MS_MarkSystemObject` proc:
 
+{% highlight sql %}
     EXEC sp_MS_MarkSystemObject '[dbo].[sp_who2db]'
+{% endhighlight %}
 
 Finally, to use it, just call it as normal:
 
-    EXEC sp_who2db 'MyDatabase' 
+{% highlight sql %}
+    EXEC sp_who2db 'MyDatabase'
+{% endhighlight %} 
 
 A similar strategy could be used to filter by blocks, hosts, logins, high CPU or Disk IO etc.
 

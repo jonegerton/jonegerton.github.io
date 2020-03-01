@@ -9,7 +9,7 @@ I thought I'd write up a question I posed today on StackOverflow here: [Loading 
 
 I had a pre-existing method that I use to get a type based on a full assembly path and a class name. This resides in a `Utils` namespace.
 
-```C#
+{% highlight csharp %}
     public Type GetTypeOf(string assemblyPath, string className)
     {
         //open assembly 
@@ -17,20 +17,20 @@ I had a pre-existing method that I use to get a type based on a full assembly pa
         //throws error, not case sensitive
         return asmbly.GetType(className, true, true); 
     }
-```
+{% endhighlight %}
 
-```VB.Net
+{% highlight vb %}
     Public Function GetTypeOf(ByVal assemblyPath As String,
         ByVal className As String) As Type
 
         Dim asmbly = System.Reflection.Assembly.LoadFrom(assemblyPath)
         Return asmbly.GetType(className, True, True)
     End Function
-```
+{% endhighlight %}
 
 I was hoping to use this as follows:
 
-```C#
+{% highlight csharp %}
     string genName = "MyNamespace.Generic";
     string itemName = "System.String";
 
@@ -40,9 +40,9 @@ I was hoping to use this as follows:
 
     //Put them together:
     var typ = getType.MakeGenericType(itemTyp);
-```
+{% endhighlight %}
 
-```VB.Net
+{% highlight vb %}
     Dim genName = "MyNamespace.Generic"
     Dim itemName = "System.String"
 
@@ -50,7 +50,7 @@ I was hoping to use this as follows:
     Dim itemTyp = GetTypeOf(itemPath,itemName)
 
     Dim typ = getType.MakeGenericType(itemTyp)
-```
+{% endhighlight %}
 
 This falls over on the first line with a `System.TypeLoadException` stating:
 
@@ -64,12 +64,14 @@ The answer, as suggested by [Carsten](http://stackoverflow.com/users/1423981/car
 
 The example Carsten gave was in this format:
 
+{% highlight csharp %}
     TestType`1[[System.Object, mscorlib, Version=4.0.0.0,
         Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+{% endhighlight %}
 
 Using this template I setup a different version of `GetTypeOf`, which I named `GetGenericTypeOf` just to make its purpose clear:
 
-```C#
+{% highlight csharp %}
     public Type GetGenericTypeOf(string assemblyPath, 
         string genericClass, string itemQualifiedClass)
     {
@@ -81,9 +83,9 @@ Using this template I setup a different version of `GetTypeOf`, which I named `G
         //throws error, not case sensitive 
         return asmbly.GetType(typString, true, true); 
     }
-```
+{% endhighlight %}
 
-```VB.Net
+{% highlight vb %}
     Public Function GetGenericTypeOf(ByVal assemblyPath As String,
         ByVal className As String,
         ByVal itemQualifiedClass as string) As Type
@@ -95,11 +97,11 @@ Using this template I setup a different version of `GetTypeOf`, which I named `G
         Dim asmbly = System.Reflection.Assembly.LoadFrom(assemblyPath)
         Return asmbly.GetType(typString , True, True) 
     End Function
-```
+{% endhighlight %}
 
 This new function is then applied in conjunction with the original to get all the information required to create an instance of the generic type:
 
-```C#
+{% highlight csharp %}
     //Get the types of the item and the generic
     var itemTyp = GetTypeOf(itemPath,itemName);
     var genTyp = GetGenericTypeOf(genPath,genName,
@@ -107,12 +109,12 @@ This new function is then applied in conjunction with the original to get all th
 
     //This genTyp is then good to go: 
     var genInst = Activator.CreateInstance(genTyp);
-```
+{% endhighlight %}
 
-```VB.Net
+{% highlight vb %}
     Dim itemTyp = GetTypeOf(itemPath,itemName);
     Dim genTyp = GetGenericTypeOf(genPath,genName,
         temTyp.AssemblyQualifiedName);
 
     var genInst = Activator.CreateInstance(genTyp);
-````
+{% endhighlight %}
