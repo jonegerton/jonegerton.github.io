@@ -3,6 +3,7 @@ layout: post
 title:  "Loading generic types with Assembly.LoadFrom"
 date:   2012-08-20 11:00:18 +0000
 categories: Assembly, C#, Late Binding, VB.Net
+permalink: /dotnet/loading-generic-types-with-assembly-loadfrom/
 ---
 
 I thought I'd write up a question I posed today on StackOverflow here: [Loading a generic type using Assembly.LoadFrom](http://stackoverflow.com/q/12036247/592111)

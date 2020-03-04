@@ -3,6 +3,7 @@ layout: post
 title:  "DropDownList Helper For"
 date:   2012-12-18 15:08:00 +0000
 categories: C# MVC
+permalinks: /dotnet/dropdownlist-helper-for-enums/
 ---
 
 Its useful to be able to have a helper that converts a Enum typed property from an MVC Model directly into a drop down list without any messing about creating lists of possible values etc.

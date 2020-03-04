@@ -3,6 +3,7 @@ layout: post
 title:  "SignalR: The ConnectionId is in the incorrect format – an alternative cause"
 date:   2014-08-12 11:39:00 +0000
 categories: ASP.Net SignalR
+permalink: /dotnet/signalr-the-connectionid-is-in-the-incorrect-format-an-alternative-cause/
 ---
 Recently, on an application using SignalR, we found that we were getting many exceptions (sometimes 10 per second) from the SignalR hubs in the site:
 

@@ -3,6 +3,7 @@ layout: post
 title:  "EditorFor and Interfaces Pt2 - Binding"
 date:   2012-12-11 16:43:00 +0000
 categories: C# MVC
+permalink: /dotnet/editorfor-and-interfaces-pt2-binding/
 ---
 
 This is a two part piece on working with Interfaces in MVC via the Html.EditorFor helper.

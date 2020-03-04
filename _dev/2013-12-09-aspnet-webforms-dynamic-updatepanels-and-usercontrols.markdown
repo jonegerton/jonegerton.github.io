@@ -3,6 +3,7 @@ layout: post
 title:  "ASP.Net Webforms - Dynamic UpdatePanels and UserControls issue"
 date:   2013-12-09 14:12:00 +0000
 categories: ASP.Net WebForms
+permalink: /dotnet/asp-net-webforms-dynamic-updatepanels-and-usercontrols-issue/
 ---
 
 I have come across an interesting issues in ASP.Net WebForms when migrating a project from 3.5 up to 4.5.

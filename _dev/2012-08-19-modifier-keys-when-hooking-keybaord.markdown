@@ -3,6 +3,7 @@ layout: post
 title:  "Determining the state of modifier keys when hooking keyboard input"
 date:   2012-08-19 10:59:33 +0000
 categories: C#, WinApi
+permalink: /dotnet/determining-the-state-of-modifier-keys-when-hooking-keyboard-input/
 ---
 
 As part of a utility I was writing recently I wanted to hook keyboard input. In particular I was interested in global hooks (ie input to any program, not just mine), and I needed to handle complex key inputs, for example `Ctrl-Alt-G`, i.e. keys plus modifiers. The usual way to do this is to use `SetWindowsHookEx`.

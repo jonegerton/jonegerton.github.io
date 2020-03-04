@@ -3,6 +3,7 @@ layout: post
 title:  "Overriding Modernizr"
 date:   2016-03-16 08:53:00 +0000
 categories: CSS Javascript Modernizr
+permalink: /web/overriding-modernizr/
 ---
 
 Modernizr is a great tool for browser feature detection, but there are times when it's useful to override Modernizr's detection and force the configuration of features that are available, both on the Javascript object and also the CSS marker classes. An example of this is when using Chrome Dev Tools to write fallback functionality for older mobile devices - Windows Mobile 7.5 and a Galaxy Ace with Android 2.3 have been problems for me lately.

@@ -3,6 +3,7 @@ layout: post
 title:  "A TinyIoC Bootstrapper"
 date:   2015-02-18 15:39:00 +0000
 categories: .Net C#
+permalink: /dotnet/a-tinyioc-bootstrapper/
 ---
 
 I really like the [TinyIoC Inversion of Control Container](https://github.com/grumpydev/TinyIoC). It's nice and straight forward to use, it's easily portable, and the auto registration feature does 99% of your work for you. In recent projects it has been an ideal choice, either because of the size of the project, or to introduce the concepts of DI to teams that weren't already familiar with it.

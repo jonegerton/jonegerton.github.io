@@ -3,6 +3,7 @@ layout: post
 title:  "Cloudflare DDNS Updates"
 date:   2015-02-25 17:39:00 +0000
 categories: Cloudflare DDNS
+permalink: /raspberrypi/cloudflare-ddns-updates/
 ---
 
 This blog is hosted on a Raspberry Pi under my TV at home. As is common with this scenario I have a dynamic WAN IP, updating intermittently at the whim of my ISP/router.

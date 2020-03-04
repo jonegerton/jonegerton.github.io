@@ -3,6 +3,7 @@ layout: post
 title:  "Filtering sp_who2 by database"
 date:   2012-07-17 10:45:42 +0000
 categories: MS SQL Server, T-SQL
+permalink: /sql/filtering-sp_who2-by-database/
 ---
 
 An easy way to improve the usability of `sp_who2` is to make a database specific version.

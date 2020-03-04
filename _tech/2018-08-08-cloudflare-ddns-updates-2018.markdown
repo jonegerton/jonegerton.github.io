@@ -3,6 +3,7 @@ layout: post
 title:  "Cloudflare DDNS Updates (Aug 2018 version)"
 date:   2018-08-08 09:44:00 +0000
 categories: Cloudflare DDNS
+permalink: /raspberrypi/cloudflare-ddns-updates-aug-2018-edition/
 ---
 
 In one of my [old blog posts](http://www.jonegerton.com/raspberrypi/cloudflare-ddns-updates/) I covered some scripts to update Cloudflare's DNS system. This is useful if you're hosting sites at home on a Raspberry PI (like this one still is!), where you might not have a static IP.

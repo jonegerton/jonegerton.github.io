@@ -3,6 +3,7 @@ layout: post
 title:  "Confusion around VirtualBox CustomVideoModes in Windows"
 date:   2015-06-02 07:53:00 +0000
 categories: VirtualBox Windows
+permalink: /misc/confusion-around-virtualbox-customvideomodes-in-windows/
 ---
 
 There are plenty of instances in online forums (eg [here](https://forums.virtualbox.org/viewtopic.php?f=7&amp;t=58572) and [here](http://superuser.com/questions/643064/custom-resolution-in-virtualbox-windows-8-with-guest-additions) of questions about setting CustomVideoModes in VirtualBox when running Windows as the client OS.

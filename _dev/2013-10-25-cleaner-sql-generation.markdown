@@ -3,6 +3,7 @@ layout: post
 title:  "Techniques for cleaner dynamic SQL generation"
 date:   2013-10-25 09:55:00 +0000
 categories: MS SQL Server, T-SQL
+permalink: /sql/techniques-for-cleaner-dynamic-sql/
 ---
 
 Very often when working in databases we have to resort to dynamic SQL generation to solve a problem. For example, common instances of this would be when performing an action across a number of different tables, or performing a `PIVOT` on a data set where the set of pivot results is not pre-determined. This latter example is one which I'll take through this walk through.

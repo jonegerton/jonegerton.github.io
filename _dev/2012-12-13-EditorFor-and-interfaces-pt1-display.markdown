@@ -3,6 +3,7 @@ layout: post
 title:  "EditorFor and Interfaces Pt1 - Display"
 date:   2012-12-11 16:03:00 +0000
 categories: C# MVC MVC4 HTML
+permalink: /dotnet/editorfor-and-interfaces-pt1-display/
 ---
 
 

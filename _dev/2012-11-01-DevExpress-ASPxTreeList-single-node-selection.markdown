@@ -3,6 +3,7 @@ layout: post
 title:  "DevExpress ASPxTreeList - Single node selection via client side JavaScript."
 date:   2012-11-01 15:26:00 +0000
 categories: ASPxTreeList DevExpress jquery javascript
+permalink: /web/devexpress-aspxtreelist-single-node-selection-via-client-side-javascript/
 ---
 Using the DevExpress ASPxTreeList control recently I came across the problem of how to only allow one node checkbox to be selected at once.
 

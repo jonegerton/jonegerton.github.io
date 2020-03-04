@@ -3,6 +3,7 @@ layout: post
 title:  "Crystal reports - setting login credentials through code"
 date:   2012-08-06 10:30:45 +0000
 categories: C#, Crystal Reports, VB.Net
+permalink: /dotnet/crystal-reports-setting-login-credentials-through-code/
 ---
 
 I just answered a [http://stackoverflow.com/a/11825083/592111](stackoverflow question) regarding a common issue when using Crystal Reports as part of a wider application - setting login credentials through code. Its not as straight forward as it really ought to be.
