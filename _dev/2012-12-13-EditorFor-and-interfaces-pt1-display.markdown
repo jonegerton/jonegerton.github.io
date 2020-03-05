@@ -86,7 +86,7 @@ The main View is as minimal as can be:
 
 Finally, when we put all this together we get the following in the browser:
 
-<img src="/images/EditorForAndInterfacesPt1.png" alt="EditorFor And Interfaces Pt1 Result">
+<img src="/assets/EditorForAndInterfacesPt1.png" alt="EditorFor And Interfaces Pt1 Result">
 
 ### Conclusion
 

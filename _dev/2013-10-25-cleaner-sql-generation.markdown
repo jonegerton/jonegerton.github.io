@@ -14,15 +14,15 @@ First up we need some data to work with. See the appendix for some setup scripts
 
 #### Person Table
 
-<img src="/images/dynsql_person_table.png" alt="Person Table Data">
+<img src="/assets/dynsql_person_table.png" alt="Person Table Data">
 
 #### Payslip Table
 
-<img src="/images/dynsql_payslip_table.png" alt="Payslip Table Data">
+<img src="/assets/dynsql_payslip_table.png" alt="Payslip Table Data">
 
 The results we're after should have one line per Person, with the years listed in the as columns, with the values being the salary for that person/year:
 
-<img src="/images/dynsql_results.png" alt="Pivot Results">
+<img src="/assets/dynsql_results.png" alt="Pivot Results">
 
 ### Static (ie non-dynamic) query
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Overriding Modernizr"
-date:   2016-03-16 08:53:00 +0000
+date:   2016-03-16 08:53
 categories: CSS Javascript Modernizr
 permalink: /web/overriding-modernizr/
 ---

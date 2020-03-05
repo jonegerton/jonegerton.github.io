@@ -20,7 +20,6 @@
 
 title: Jon Egerton
 strapline: Notes on coding and tinkering
-email: jonegerton@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Notes on coding and tinkering.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -53,9 +52,19 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 collections:
+  vintage-lego:
+    output: true
+    title: Vintage Lego
+    sequence: 0
+  robot:
+    output: true
+    title: Robot project
+    sequence: 0
+  geekery:
+    output: true
+    title: Assorted geekery 
+    sequence: 3
   dev:
     output: true
-  tech:
-    output: true
-  lego:
-    output: true
+    title: Software & web development
+    sequence: 4

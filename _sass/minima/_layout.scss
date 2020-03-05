@@ -127,7 +127,7 @@
 }
 
 .footer-heading {
-  @include relative-font-size(1.125);
+  @include relative-font-size(0.9);
   margin-bottom: $spacing-unit / 2;
 }
 
@@ -220,7 +220,23 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  @include relative-font-size(1.1);
+}
+
+.collection-box {
+  & + & {
+    border-top: solid 1px $grey-color-light;
+    padding-top: $spacing-unit / 2;
+  }
+}
+.collection-link {
+  display: inline-block;
+  @include relative-font-size(1.4);
+}
+
+.collection-size-subheading {
+  font-size: $small-font-size;
+  color: $grey-color;
 }
 
 
