@@ -3,7 +3,7 @@ layout: post
 title:  "AutoMapper and EntityFramework Proxies - a workaround"
 date:   2013-02-21 16:43:00 +0000
 categories: C# MVC
-permalinks: /dotnet/automapper-and-entityframework-proxies-a-workaround/
+permalink: /dotnet/automapper-and-entityframework-proxies-a-workaround/
 ---
 
 This is a quick workaround for an issue I came across when working with AutoMapper on EF. Its one of those blog posts that's as much a reminder for the writer as anything else.
