@@ -56,7 +56,6 @@ plugins:
 header_pages:
   - geekery.html
   - dev.html
-  - about.markdown
 
 collections:
   vintage-lego:
