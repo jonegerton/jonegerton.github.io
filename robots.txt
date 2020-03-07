@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /404.html
+Disallow: /assets
+
+Sitemap: https://jonegerton.com/sitemap.xml
