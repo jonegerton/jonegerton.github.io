@@ -8,7 +8,7 @@ permalink: /dotnet/editorfor-and-interfaces-pt2-binding/
 
 This is a two part piece on working with Interfaces in MVC via the Html.EditorFor helper.
 
-In the [first part – “Display”](http://www.jonegerton.com/dotnet/editorfor-and-interfaces-pt1-display/) just covers one of those things I tried on the off chance, and was rather surprised that it worked right out of the box.
+In the [first part – “Display”]({{ site.url }}/dotnet/editorfor-and-interfaces-pt1-display/) just covers one of those things I tried on the off chance, and was rather surprised that it worked right out of the box.
 
 In this second part I’ll have a look at the next step of the process – binding these interfaces back to their models.
 
@@ -18,7 +18,7 @@ For reference, I’m working with MVC4, in VS 2012 For Web. I think this will al
 
 When model data is posted back from the client, an instance of the model class is automatically created for it and passed to the handling action. The process of converting the data into a model instance is called binding, and, normally, this is handled for us automatically.
 
-If, as in [Part 1]("http://www.jonegerton.com/dotnet/editorfor-and-interfaces-pt1-display/"), we're using an interface as a model, and then allowing `EditorFor` to automatically render the correct controls this processes stops working, as the automatic binding isn't able to resolve our interface into a concrete class to instantiate and fill.
+If, as in [Part 1]({{ site.url }}/dotnet/editorfor-and-interfaces-pt1-display/), we're using an interface as a model, and then allowing `EditorFor` to automatically render the correct controls this processes stops working, as the automatic binding isn't able to resolve our interface into a concrete class to instantiate and fill.
 
 Instead we have to implement a custom binding. In the case of interfaces we can make this fairly simple with Generic `BaseInterfaceBinder` that will work for all interfaces we might want to work with.
 

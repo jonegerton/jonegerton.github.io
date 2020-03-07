@@ -6,7 +6,7 @@ categories: Cloudflare DDNS
 permalink: /raspberrypi/cloudflare-ddns-updates-aug-2018-edition/
 ---
 
-In one of my [old blog posts](http://www.jonegerton.com/raspberrypi/cloudflare-ddns-updates/) I covered some scripts to update Cloudflare's DNS system. This is useful if you're hosting sites at home on a Raspberry PI (like this one still is!), where you might not have a static IP.
+In one of my [old blog posts]({{ site.url }}/raspberrypi/cloudflare-ddns-updates/) I covered some scripts to update Cloudflare's DNS system. This is useful if you're hosting sites at home on a Raspberry PI (like this one still is!), where you might not have a static IP.
 
 In the intervening 3 years, the API has changed, so I've revisited the scripts to update them to the new shiny "Cloudflare API V4". The updated scripts are tested on the current latest image of Raspbian Stretch at the time of writing. The new scripts are available on [GitHub here](https://github.com/jonegerton/cloudflare-ddns).
 

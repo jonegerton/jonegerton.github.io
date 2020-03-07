@@ -1,5 +1,11 @@
+---
+layout: null
+sitemap:
+  exclude: 'yes'
+---
+
 User-agent: *
 Disallow: /404.html
 Disallow: /assets
 
-Sitemap: https://jonegerton.com/sitemap.xml
+Sitemap: {{ site.url }}/sitemap.xml

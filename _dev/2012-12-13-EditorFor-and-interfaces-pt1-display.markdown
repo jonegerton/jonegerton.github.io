@@ -11,7 +11,7 @@ This is a two part piece on working with Interfaces in MVC via the Html.EditorFo
 
 The first part - "Display" - just covers one of those things I tried on the off chance, and was rather surprised that it worked right out of the box.
 
-In the [second part](http://www.jonegerton.com/dotnet/editorfor-and-interfaces-pt2-binding/) I'll have a look at the next step of the process - binding these interfaces back to their models.
+In the [second part]({{ site.url }}/dotnet/editorfor-and-interfaces-pt2-binding/) I'll have a look at the next step of the process - binding these interfaces back to their models.
 
 For reference, I'm working with MVC4, in VS 2012 For Web. I think this will also work in MVC3 at least.
 
@@ -92,4 +92,4 @@ Finally, when we put all this together we get the following in the browser:
 
 Here I've shown that it's easy to use a combination of EditorFor and Interfaces to vary the output of a list to the page. Nothing earth-shattering in setting it up, but it is one of those things that's nice to have working right out of the box.
 
-In [Part 2](http://www.jonegerton.com/dotnet/editorfor-and-interfaces-pt2-binding) I'll have a look at the next step of the process - binding these interfaces back to their models.
+In [Part 2]({{ site.url }}/dotnet/editorfor-and-interfaces-pt2-binding) I'll have a look at the next step of the process - binding these interfaces back to their models.
