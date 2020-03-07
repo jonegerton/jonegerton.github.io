@@ -3,27 +3,24 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }} - {{ site.strapline | escape }}
-    </h2>
-
     <div class="footer-col-wrapper">
 
       <div class="footer-col footer-col-1">
-        {%- include social.html -%}
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="jonegerton"><a class="LI-simple-link" href='https://uk.linkedin.com/in/jonegerton?trk=profile-badge'>Jon Egerton</a></div>
+                <a href="http://stackoverflow.com/users/592111/jon-egerton">
+        
+      </a>
+      
       </div>
 
       <div class="footer-col footer-col-2">
-      
-        {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
-          <p>
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          </p>
-          
-          {%- endif -%}
-        {%- endfor -%}
+        <p>
+          <img src="http://stackoverflow.com/users/flair/592111.png" width="208" height="58" alt="profile for Jon Egerton at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Jon Egerton at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+        </p>
+        <p>
+          {%- include social.html -%}
+        </p>
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
       </div>
     </div>
 

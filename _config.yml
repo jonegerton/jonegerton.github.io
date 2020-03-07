@@ -52,6 +52,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+header_pages:
+  - geekery.html
+  - dev.html
+  - about.markdown
+
 collections:
   vintage-lego:
     output: true
