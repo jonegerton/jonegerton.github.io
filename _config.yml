@@ -53,6 +53,11 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+feed:
+  collections:
+    - geekery
+    - dev
+
 header_pages:
   - geekery.html
   - dev.html
