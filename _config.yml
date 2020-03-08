@@ -54,6 +54,7 @@ plugins:
 #   - vendor/ruby/
 
 feed:
+  excerpt_only: true
   collections:
     - geekery
     - dev
