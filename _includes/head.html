@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   {%- if page.feed -%}
-  <link type="application/atom+xml" rel="alternate" href="{{ page.feed | relative_url }}" title="{{page.title}} - {{site.title}} | {{site.strapline}}" />
+  <link type="application/atom+xml" rel="alternate" href="http://feeds.feedburner.com/{{ page.feed }}" title="{{site.title}} - {{site.strapline}} | {{page.title}}" />
   {%- endif -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
