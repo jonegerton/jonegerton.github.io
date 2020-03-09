@@ -16,7 +16,7 @@ layout: default
 
     <div class="collection-box">
       {% assign name = collection.label %}
-      {% assign posts = site.[name] | reverse %}
+      {% assign posts = site[name] | reverse %}
 
       <h2 class="post-list-heading">
         <a class="collection-link" href="/{{ name }}">{{ collection.title | escape }} ></a>
@@ -25,9 +25,8 @@ layout: default
       
       <ul class="post-list">
 
-        {% for post in posts limit:3 }
+        {% for post in posts limit:3 %}
           <li>
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <h3>
               <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
               <a class="post-link" href="{{ post.url | relative_url }}">

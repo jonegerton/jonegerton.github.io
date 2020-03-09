@@ -25,7 +25,7 @@ sitemap:
   {% for collection in collections %}
 
     {% if collection.sequence > 0 %}
-        {% for post in site.[collection.label] %}
+        {% for post in site[collection.label] %}
             <url>
                 <loc>{{ site.url }}{{ post.url }}</loc>
                 <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
