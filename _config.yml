@@ -27,6 +27,7 @@ url: "https://jonegerton.com" # the base hostname & protocol for your site, e.g.
 twitter_username: jon_egerton
 github_username:  jonegerton
 google_analytics: UA-34255130-1
+google_adsense: ca-pub-6304728968249213
 
 # Build settings
 theme: minima
