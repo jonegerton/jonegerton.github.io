@@ -1,0 +1,26 @@
+
+.gallery {
+    list-style: none;
+    overflow: scroll;
+    border: solid 1px $grey-color-light;
+}
+
+.gallery-scroll {
+    display: flex;
+    margin: 0;
+}
+
+.gallery-item {
+	display: inline-flex;
+    list-style: none;
+    padding: 0;
+    
+    & + & {
+        padding-left: 4px;
+    }
+}
+
+.gallery-image {
+    height: 150px;
+    max-width: 400px;
+}

@@ -1,0 +1,10 @@
+{% assign images = include.images | sort: 'order' %}
+<aside class="gallery">
+<ul class="gallery-scroll">
+  {% for image in images %}
+    <li class="gallery-item">
+        <img class="gallery-image" src="{{ include.image-root | relation_url }}thumb-{{ image }}" alt="{{ image }}">
+    </li>
+  {% endfor %}
+</ul>
+</aside>

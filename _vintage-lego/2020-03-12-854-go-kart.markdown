@@ -1,0 +1,16 @@
+---
+layout: lego-post
+title:  "854 Go Kart"
+date:   2020-03-12 22:44:00 +0000
+categories: Lego
+permalink: /lego/854-go-kart/
+image-root: /assets/lego/854/
+images:
+    - 854-side.jpg
+    - 854-engine.jpg
+    - 854-front.jpg
+    - 854-top.jpg
+    - 854-steering.jpg
+    - 854-bottom.jpg
+---
+

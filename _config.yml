@@ -57,6 +57,7 @@ plugins:
 feed:
   excerpt_only: true
   collections:
+    - vintage-lego
     - geekery
     - dev
 
@@ -68,7 +69,7 @@ collections:
   vintage-lego:
     output: true
     title: Vintage Lego
-    sequence: 0
+    sequence: 1
   robot:
     output: true
     title: Robot project
