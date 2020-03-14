@@ -14,18 +14,12 @@
     </main>
 
     {%- include footer.html -%}
-    {% include cookie-consent.html %}
+    {%- include cookie-consent.html -%}
     {%- if jekyll.environment == 'production' and site.google_analytics -%}
       {%- include google-analytics.html -%}
     {%- endif -%} 
     {%- if jekyll.environment == 'production' and site.google_adsense -%}
       {%- include google-adsense.html -%}
-      <script>
-      if(readCookie('cookie-notice-accepted')!='true') {
-        //Suppress on client if no consent
-        (adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=1
-      }
-      </script>
     {%- endif -%}
   </body>
 
