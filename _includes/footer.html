@@ -6,19 +6,25 @@
     <div class="footer-col-wrapper">
 
       <div class="footer-col footer-col-1">
-        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="jonegerton"><a class="LI-simple-link" href='https://uk.linkedin.com/in/jonegerton?trk=profile-badge'>Jon Egerton</a></div>
-                <a href="http://stackoverflow.com/users/592111/jon-egerton">
-        
+        <p>
+          <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="jonegerton"><a class="LI-simple-link" href='https://uk.linkedin.com/in/jonegerton?trk=profile-badge'>Jon Egerton - LinkedIn</a></div>
+        </p>
+       
+        <p>
+          <a href="http://stackoverflow.com/users/592111/jon-egerton">
+            <img src="http://stackoverflow.com/users/flair/592111.png" width="208" height="58" alt="profile for Jon Egerton at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Jon Egerton at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+          </a>
+        </p>
       </a>
       
       </div>
 
       <div class="footer-col footer-col-2">
         <p>
-          <img src="http://stackoverflow.com/users/flair/592111.png" width="208" height="58" alt="profile for Jon Egerton at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Jon Egerton at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+          {%- include social.html -%}
         </p>
         <p>
-          {%- include social.html -%}
+          <a href="{{ "/privacy" | relative_url }}">Privacy</a>
         </p>
       </div>
     </div>

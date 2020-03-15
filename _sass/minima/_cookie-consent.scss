@@ -1,0 +1,34 @@
+#cookie-notice {
+    padding: 0.5rem 1rem; 
+    display: none; 
+    text-align: center; 
+    position: fixed; 
+    bottom: 0; 
+    width: calc(100% - 2rem); 
+    background: #222; 
+    color: rgba(255,255,255,0.8);
+}
+
+#cookie-notice span {
+    @include media-query($on-laptop) {
+        display: block; 
+        padding-top: 3px; 
+        margin-bottom: 1rem;
+    }
+}
+#cookie-notice a {
+    display: inline-block; 
+    cursor: pointer; 
+    margin-left: 0.5rem; 
+    color: $grey-color;
+
+    &.primary {
+        color:$grey-color-light;
+    }
+
+    @include media-query($on-laptop) {
+       position: relative; 
+       bottom: 4px;
+    }
+}
+
