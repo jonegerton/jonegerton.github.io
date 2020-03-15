@@ -1,11 +1,37 @@
 
 .gallery {
+    display: flex;
     list-style: none;
-    overflow: scroll;
     border: solid 1px $grey-color-light;
 }
 
-.gallery-scroll {
+.gallery-scroll-button {
+    @include relative-font-size(1);
+    display:none;
+    background-color: $grey-color-light;
+    color: $grey-color;
+    line-height: 150px;
+    vertical-align: middle;
+    padding: 0 4px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $grey-color;
+        color: $grey-color-dark;
+    }
+
+    @include media-query($on-laptop) {
+        display: inline-flex;
+    }
+}
+
+.gallery-items {
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-scroller {
+    position: relative;
     display: flex;
     margin: 0;
 }
