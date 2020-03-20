@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /**
  * Reset some basic elements
  */
@@ -209,7 +215,7 @@ pre {
  */
 
 .svg-icon {
-    width: 16px;
+    width: 21px;
     height: 16px;
     display: inline-block;
     fill: #{$grey-color};

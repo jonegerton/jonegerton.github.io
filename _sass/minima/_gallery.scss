@@ -4,6 +4,8 @@
     display: flex;
     list-style: none;
     border: solid 1px $grey-color-light;
+    overflow: hidden;
+    height: 152px;
 }
 
 .gallery-left,
@@ -55,6 +57,7 @@
 .gallery-items {
 
     position: relative;    
+    overflow-y: hidden;    
 
     .hasTouch & {
         overflow-x: scroll;        
