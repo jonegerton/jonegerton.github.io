@@ -2,8 +2,8 @@
 <script type="text/javascript" defer src="{{ "/assets/js/gallery.js" | relative_url }}" ></script>
 
 {% assign images = include.images | sort: 'order' %}
-<aside class="gallery">
-  <span id="gallery-left" class="gallery-scroll-button">&lt;</span>
+<aside id="gallery" class="gallery">
+  <div id="gallery-left" class="gallery-left">&lt;</div>
   <span class="gallery-items">
   <ul id="gallery-scroller" class="gallery-scroller">
     {% for image in images %}
@@ -13,5 +13,5 @@
     {% endfor %}
   </ul>
 </span>
-<span id="gallery-right" class="gallery-scroll-button">&gt;</span>
+<div id="gallery-right" class="gallery-right">&gt;</div>
 </aside>

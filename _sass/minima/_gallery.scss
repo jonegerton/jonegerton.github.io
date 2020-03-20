@@ -1,39 +1,78 @@
 
 .gallery {
+    position: relative;
     display: flex;
     list-style: none;
     border: solid 1px $grey-color-light;
 }
 
-.gallery-scroll-button {
+.gallery-left,
+.gallery-right{
     @include relative-font-size(1);
-    display:none;
-    background-color: $grey-color-light;
-    color: $grey-color;
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+    background-color: $grey-color;
+    color: $grey-color-dark;
     line-height: 150px;
     vertical-align: middle;
-    padding: 0 4px;
+    padding: 0 10px;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
     cursor: pointer;
 
-    &:hover{
-        background-color: $grey-color;
-        color: $grey-color-dark;
-    }
 
-    @include media-query($on-laptop) {
-        display: inline-flex;
+    .gallery.hasHover:hover & {
+        opacity: 0.7;
+        pointer-events: auto;
+    }
+    
+    .gallery.hasHover &:hover{
+        opacity: 1;
+    }
+}
+
+.gallery-left {
+    .gallery.hasHover.atLeft &,
+    .gallery.hasHover.atLeft &:hover,
+    .gallery.hasHover.atLeft:hover & {
+        opacity: 0;
+    }
+}
+
+.gallery-right {
+    right: 0;
+
+    .gallery.hasHover.atRight &,
+    .gallery.hasHover.atRight &:hover,
+    .gallery.hasHover.atRight:hover & {
+        opacity: 0;
     }
 }
 
 .gallery-items {
-    overflow: hidden;
-    position: relative;
+
+    position: relative;    
+
+    .hasTouch & {
+        overflow-x: scroll;        
+    }
+    
+    .hasHover & {
+        overflow: hidden;
+    }
 }
 
 .gallery-scroller {
     position: relative;
     display: flex;
     margin: 0;
+    left: 0;
+    transition: left .25s ease-in-out;
+    -moz-transition: left .25s ease-in-out;
+    -webkit-transition: left .25s ease-in-out;
 }
 
 .gallery-item {
