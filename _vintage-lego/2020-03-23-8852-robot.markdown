@@ -1,0 +1,82 @@
+---
+layout: lego-post
+title:  "8852 Robot"
+date:   2020-03-12 22:44:00 +0000
+categories: Lego
+permalink: /lego/8852-robot/
+setlink: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8852-1#T=S&O={%22iconly%22:0}
+instructionslink: https://lego.brickinstructions.com/en/lego_instructions/set/8852/Robot
+image-root: /assets/lego/8852/
+images:
+    - 854-side.jpg
+    - 854-engine.jpg
+    - 854-front.jpg
+    - 854-top.jpg
+    - 854-steering.jpg
+    - 854-bottom.jpg
+missing-parts:
+    3941:
+        number: 3941
+        name: Brick Speciality 2 x 2 Round
+        color: Yellow
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3941&idColor=3#T=C&C=3
+        image: https://img.bricklink.com/P/3/3941.jpg
+    2429:
+        number: 2429/2430 
+        name: Hinge Plate 1 x 4 Swivel Base with Same Color Hinge Plate 1 x 4 Swivel Top (2429 / 2430)
+        color: Yellow
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=2429c01&idColor=3#T=C&C=3
+        image: https://img.bricklink.com/P/3/2429c01.jpg
+    2695:
+        number: 2695/2696
+        name: Wheel 30mm D. x 13mm (13 x 24 Model Team), with Black Tire 13 x 24 Model Team
+        color: Light Gray
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=2695c01&idColor=9
+        image: https://img.bricklink.com/P/9/2695c01.jpg
+    3069: 
+        number: 3069
+        name: Tile 1 x 2 with Groove with Arrow Long Yellow with Black Border Pattern
+        color: Light Gray
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069bp06&idColor=9
+        image: https://img.bricklink.com/P/9/3069bp06.jpg
+    4221: 
+        number: 4221
+        name: Arm Grab Jaw
+        color: Light Gray
+        quantity: 2
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4221&idColor=9
+        image: https://img.bricklink.com/P/9/4221.jpg
+    3069: 
+        number: 3069
+        name: Tile 1 x 2 with Groove with Black Grille Pattern
+        color: Yellow
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069bp05&idColor=3
+        image: https://img.bricklink.com/P/3/3069bp05.jpg
+    3070b:
+        number: 3070b
+        name: Tile 1 x 1 with Groove
+        color: Yellow
+        quantity: 2
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3070b&idColor=3
+        image: https://img.bricklink.com/P/3/3070b.jpg
+    3666:
+        number: 3666
+        name: Plate 1 x 6
+        color: Yellow
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3666&idColor=3
+        image: https://img.bricklink.com/P/3/3666.jpg
+    4073c01:
+        number: 4073c01
+        name: Plate, Round 1 x 1, 2 on Sprue
+        color: Transparent Red
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4073c01&idColor=17
+        image: https://img.bricklink.com/P/17/4073c01.jpg
+---
+

@@ -2,7 +2,9 @@
 layout: default
 ---
 
+{%- if page.images -%}
 {%- include gallery.html images = page.images image-root = page.image-root -%}
+{%- endif -%}
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -14,13 +16,35 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  {%- if page.missing-parts -%}
+  <aside class="parts-table">
+    <div class="parts-row parts-header">
+      <div></div>
+      <div>Number</div>
+      <div>Name</div>
+      <div>Color</div>
+      <div>Quantity</div>
+    </div>
+    {%- for id in page.missing-parts -%}  
+    {% assign part = id[1] %}  
+    <div class="parts-row">
+      <div class="parts-image"><img src="{{ part.image }}" alt="part {{ id[0] }}" /></div>
+      <div><a href="{{ part.link }}" target="_top">{{ id[0] }}</a></div>
+      <div>{{ part.name }}</div>
+      <div>{{ part.color }}</div>
+      <div>{{ part.quantity }}</div>
+    </div>
+    {%- endfor -%}
+  </aside>
+  {%- endif -%}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
