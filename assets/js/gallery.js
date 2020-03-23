@@ -63,6 +63,10 @@
 
     close.onclick = function (e) {
         popup.className = popup.className.replace(" gallery-popup-show", "");
+        setTimeout(function () {
+            image.setAttribute("src", null);
+            image.setAttribute("alt", null);
+        },250);
         return false;
     }
 
