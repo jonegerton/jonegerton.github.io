@@ -4,6 +4,7 @@
     display: flex;
     list-style: none;
     border: solid 1px $grey-color-light;
+    border-radius: 4px;
     overflow: hidden;
     height: 152px;
 }
@@ -11,6 +12,7 @@
 .gallery-left,
 .gallery-right{
     @include relative-font-size(1);
+    display:none;
     position: absolute;
     pointer-events: none;
     z-index: 1;
@@ -25,33 +27,28 @@
     -webkit-transition: opacity .25s ease-in-out;
     cursor: pointer;
 
+    .gallery.hasHover & {
+        display: block;
+    }
 
-    .gallery.hasHover:hover & {
+    .gallery:hover & {
         opacity: 0.7;
         pointer-events: auto;
     }
     
-    .gallery.hasHover &:hover{
+    &:hover{
         opacity: 1;
     }
-}
 
-.gallery-left {
-    .gallery.hasHover.atLeft &,
-    .gallery.hasHover.atLeft &:hover,
-    .gallery.hasHover.atLeft:hover & {
+    .gallery:hover &.atEnd ,
+    &.atEnd,
+    &.atEnd:hover {
         opacity: 0;
     }
 }
 
 .gallery-right {
     right: 0;
-
-    .gallery.hasHover.atRight &,
-    .gallery.hasHover.atRight &:hover,
-    .gallery.hasHover.atRight:hover & {
-        opacity: 0;
-    }
 }
 
 .gallery-items {
@@ -88,7 +85,88 @@
     }
 }
 
-.gallery-image {
+.gallery-thumb {
     height: 150px;
     max-width: 400px;
+}
+
+.gallery-popup {
+    position: absolute;
+    opacity: 0;
+    width:0;
+    z-index: 99;
+    border-radius: 4px;
+    top: 20px;
+    left: 50%;
+    margin-left: -45%;
+    transition: top .25s ease-in-out, opacity .25s ease-in-out;
+    -moz-transition: top .25s ease-in-out,  opacity .25s ease-in-out;
+    -webkit-transition: top .25s ease-in-out, opacity .25s ease-in-out;
+} 
+
+.gallery-popup-show{
+    top: 64px;
+    opacity: 1;
+    width: 90%;
+    border: solid 1px $grey-color;
+}
+
+.gallery-close,
+.gallery-max{
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: $grey-color-dark;
+    top: 0;
+    padding: 8px 16px 12px;
+    background-color: $grey-color;
+    opacity: 0.7;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    @include media-query($on-palm) {
+        opacity: .9;
+    }
+
+    .gallery-popup-show & {
+        display: block;
+        border-bottom: solid 1px $grey-color;
+        border-left: solid 1px $grey-color;
+    }
+}
+
+.gallery-close {
+    right: 0;
+}
+
+.gallery-max {
+    right:42px;
+    border-bottom-left-radius: 4px;
+
+    &,
+    &:active,
+    &:hover,
+    &:visited {
+        color: $grey-color-dark;
+        text-decoration: none;
+    }
+}
+
+.gallery-image-ctr {
+    @include media-query($on-palm) {
+        height: 400px;
+        overflow: scroll;
+    }
+}
+
+.gallery-image {
+    @include media-query($on-palm) {
+        max-width: 1024px;
+    }
 }

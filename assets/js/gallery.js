@@ -1,41 +1,68 @@
 
 (function gallery() {
 
-    var galleryLeft = document.getElementById("gallery-left");
-    var galleryRight = document.getElementById("gallery-right");
-    var galleryScroller = document.getElementById("gallery-scroller");
+    var left = document.getElementById("gallery-left");
+    var right = document.getElementById("gallery-right");
+    var scroller = document.getElementById("gallery-scroller");
+    var close = document.getElementById("gallery-close");
+    var max = document.getElementById("gallery-max");
+    var popup = document.getElementById("gallery-popup");
+    var image = document.getElementById("gallery-image");
     var gallery = document.getElementById("gallery");
+    var items = document.getElementsByClassName("gallery-item");
     var scrollStep = 300;
 
-    watchForHover(gallery)
+    watchForHover(gallery);
     
-    gallery.className += " atLeft"
+    left.className += " atEnd"
 
-    galleryLeft.onclick = function (e) {
-    
-        var left = parseInt(galleryScroller.style.left || "0");
-        if (left >= 0) return;
-        left = (left > -scrollStep) ? 0 : left + scrollStep
+    for (var i = 0; i < items.length; i++) {
+        items[i].onclick = thumbClick
+    }
 
-        galleryScroller.style.left = left + "px";
+    function thumbClick (e) {
+
+        image.setAttribute("src", e.currentTarget.getAttribute("data-image-src"));
+        image.setAttribute("alt", e.currentTarget.getAttribute("data-image-alt"));
+        max.setAttribute("href", e.currentTarget.getAttribute("data-image-src"));
         
-        gallery.className = gallery.className.replace(" atRight", "");
-        if (left == 0) gallery.className += " atLeft"
+        if (popup.className.indexOf("gallery-popup-show") == -1) {
+            popup.className += " gallery-popup-show";
+        }
+
+        return false;
+    }
+
+    left.onclick = function (e) {
+    
+        var leftPos = parseInt(scroller.style.left || "0");
+        if (leftPos >= 0) return;
+        leftPos = (leftPos > -scrollStep) ? 0 : leftPos + scrollStep
+
+        scroller.style.left = leftPos + "px";
+        
+        right.className = right.className.replace(" atEnd", "");
+        if (leftPos == 0) left.className += " atEnd"
             
         return false;
     }
-    galleryRight.onclick = function (e) {
+    right.onclick = function (e) {
     
-        var left = -parseInt(galleryScroller.style.left || "0"); //left will be <=0, so flip for math and flip back to set       
-        var maxLeft = galleryScroller.scrollWidth - gallery.clientWidth; //Can change if windows resized
+        var leftPos = -parseInt(scroller.style.left || "0"); //left will be <=0, so flip for math and flip back to set       
+        var maxLeft = scroller.scrollWidth - gallery.clientWidth; //Can change if windows resized
 
-        if (left >= maxLeft) return;
-        left = (maxLeft - left < scrollStep) ? maxLeft : left + scrollStep;
-        galleryScroller.style.left = -left + "px";
+        if (leftPos >= maxLeft) return;
+        leftPos = (maxLeft - leftPos < scrollStep) ? maxLeft : leftPos + scrollStep;
+        scroller.style.left = -leftPos + "px";
 
-        gallery.className = gallery.className.replace(" atLeft", "");
-        if (left == maxLeft) gallery.className += " atRight"
+        left.className = left.className.replace(" atEnd", "");
+        if (leftPos == maxLeft) right.className += " atEnd"
                 
+        return false;
+    }
+
+    close.onclick = function (e) {
+        popup.className = popup.className.replace(" gallery-popup-show", "");
         return false;
     }
 

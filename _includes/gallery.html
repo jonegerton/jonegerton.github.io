@@ -7,11 +7,18 @@
   <span class="gallery-items">
   <ul id="gallery-scroller" class="gallery-scroller">
     {% for image in images %}
-      <li class="gallery-item">
-          <img class="gallery-image" src="{{ include.image-root | relation_url }}thumb-{{ image }}" alt="{{ image }}">
+      <li class="gallery-item" data-image-src="{{ include.image-root | relation_url }}{{ image }}" data-image-alt="{{ image }}">
+          <img class="gallery-thumb" src="{{ include.image-root | relation_url }}thumb-{{ image }}" alt="{{ image }}">
       </li>
     {% endfor %}
   </ul>
 </span>
 <div id="gallery-right" class="gallery-right">&gt;</div>
+</aside>
+<aside id="gallery-popup" class="gallery-popup">
+  <a id="gallery-max" class="gallery-max" target="lego-max">&lt;&gt;</a>
+  <div id="gallery-close" class="gallery-close">x</div>
+  <div id="gallery-image-ctr" class="gallery-image-ctr">
+    <img id="gallery-image" class="gallery-image"/>
+  </div>
 </aside>
