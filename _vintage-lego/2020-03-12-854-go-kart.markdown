@@ -27,5 +27,6 @@ missing-parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3680c01&idColor=7
     image: https://img.bricklink.com/P/7/3680c01.jpg
+missing-parts-image-credit: Parts images from bricklink.com
 ---
 

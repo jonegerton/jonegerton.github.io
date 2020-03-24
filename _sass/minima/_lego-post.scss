@@ -1,10 +1,50 @@
 .parts-table {
     display: flex;
     flex-direction: column;
-    width: 100$;
+    width: 100%;
 }
 
+.parts-header {
+    font-weight: bold;
+}
 .parts-row {
     display:flex;
     flex-direction: row;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+.parts-image {
+    
+}
+
+.parts-image-ctr{
+    flex: 0 0 100px;
+    text-align: center;
+}
+.parts-color{
+    padding: 4px;
+    flex: 0 0 120px;
+}
+.parts-link,
+{
+    padding:4px;
+    flex: 0 0 80px;
+}
+.parts-name {
+    padding: 4px;
+    flex: 0 0 auto;
+    width: calc(100% - 380px);
+}
+
+.parts-quantity {
+    padding: 4px;
+    flex: 0 0 80px;
+    text-align: center;
+}
+
+.parts-image-credit {
+    font-size: 14px;
+    color: $grey-color;
+    width: 100%;
+    text-align: right;
 }
