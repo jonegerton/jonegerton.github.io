@@ -2,12 +2,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="shortcut icon" type="image/png" href="https://0.gravatar.com/avatar/fab76a17da486c15907226415f222711.png?s=16" />
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  {%- if jekyll.environment == 'production' -%}
-  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="556996e5-f2be-473b-bd54-91f02b709b88" data-blockingmode="auto" type="text/javascript"></script>
-  {%- endif -%}
+  {%- include cookie-control.html -%}
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   {%- if page.feed -%}
   <link type="application/atom+xml" rel="alternate" href="http://feeds.feedburner.com/{{ page.feed }}" title="{{site.title}} - {{site.strapline}} | {{page.title}}" />
