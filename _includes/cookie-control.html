@@ -1,0 +1,38 @@
+
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="556996e5-f2be-473b-bd54-91f02b709b88" type="text/javascript" async></script>
+  <script>
+    window.addEventListener('CookiebotOnAccept', function (e) {
+
+        var head = document.getElementsByTagName("head")[0];
+        var s;
+        
+        if (Cookiebot.consent.statistics) {
+            
+            {%- if jekyll.environment == 'production' and site.google_analytics -%}    
+            s = document.createElement("script");
+            s.type = "text/javascript";
+            s.src = "https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}";
+            head.appendChild(s);
+
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', '{{ site.google_analytics }}', { 'anonymize_ip': true });
+            {%- endif -%}
+        };
+
+        if (Cookiebot.consent.marketing) {
+            
+            {%- if jekyll.environment == 'production' and site.google_adsense -%}
+            s = document.createElement("script");
+            s.type = "text/javascript";
+            s.setAttribute("data-ad-client", "{{ site.google_adsense }}");
+            s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+            head.appendChild(s);
+            {%- endif -%}
+        }
+    
+    }, false);
+
+  </script>
