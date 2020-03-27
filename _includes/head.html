@@ -2,29 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script>
-/*
- First, get reference to the native setter, in case we really want to set the
- cookie. And get reference to the native getter, because if there is a custom
- setter, the native getter does not work.
-*/
-var cookie_setter = document.__lookupSetter__ ('cookie');
-var cookie_getter = document.__lookupGetter__ ('cookie');
 
-/*
- Now, define our custom setter and reset the getter else it won't work.
-*/
-document.__defineSetter__ ('cookie', set_cookie);
-document.__defineGetter__ ('cookie', cookie_getter);
-
-function set_cookie(value) {
-  if (true) {
-    // If precondition validates, then this runs
-    return cookie_setter.apply(this, arguments);
-  }
-  return value;
-}
-  </script>
   <link rel="shortcut icon" type="image/png" href="https://0.gravatar.com/avatar/fab76a17da486c15907226415f222711.png?s=16" />
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
