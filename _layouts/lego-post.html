@@ -32,18 +32,18 @@ layout: default
     <div class="parts-row parts-header">
       <div class="parts-image-ctr"></div>
       <div class="parts-link">Number</div>
-      <div class="parts-name">Name</div>
-      <div class="parts-color">Color</div>
       <div class="parts-quantity">Quantity</div>
+      <div class="parts-color">Color</div>
+      <div class="parts-name">Name</div>
     </div>
     {%- for id in page.missing-parts -%}  
     {% assign part = id[1] %}  
     <div class="parts-row">
       <div class="parts-image-ctr"><img class="parts-image" src="{{ part.image }}" alt="part {{ id[0] }}" /></div>
       <div class="parts-link"><a href="{{ part.link }}" target="_top">{{ id[0] }}</a></div>
-      <div class="parts-name">{{ part.name }}</div>
-      <div class="parts-color">{{ part.color }}</div>
       <div class="parts-quantity">{{ part.quantity }}</div>
+      <div class="parts-color">{{ part.color }}</div>
+      <div class="parts-name">{{ part.name }}</div>
     </div>
     {%- endfor -%}
     <p class="parts-image-credit">{{page.missing-parts-image-credit}}</p>

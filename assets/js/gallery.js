@@ -10,7 +10,7 @@
     var image = document.getElementById("gallery-image");
     var gallery = document.getElementById("gallery");
     var items = document.getElementsByClassName("gallery-item");
-    var scrollStep = 300;
+    var scrollStep = 500;
 
     watchForHover(gallery);
     
@@ -64,8 +64,8 @@
     close.onclick = function (e) {
         popup.className = popup.className.replace(" gallery-popup-show", "");
         setTimeout(function () {
-            image.setAttribute("src", null);
-            image.setAttribute("alt", null);
+            image.setAttribute("src", "#");
+            image.setAttribute("alt", "");
         },250);
         return false;
     }

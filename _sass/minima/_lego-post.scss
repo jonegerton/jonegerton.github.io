@@ -46,5 +46,20 @@
     font-size: 14px;
     color: $grey-color;
     width: 100%;
-    text-align: right;
+}
+
+@include media-query($on-laptop) {
+    
+    .parts-row {
+        flex-wrap: wrap;
+    }
+    .parts-name {
+        width: 100%;
+        padding-left: 100px;
+        margin-top: -30px;
+
+        .parts-header & {
+            display: none;
+        }
+    }
 }

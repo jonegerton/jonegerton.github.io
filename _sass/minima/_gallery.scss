@@ -93,22 +93,41 @@
 .gallery-popup {
     position: absolute;
     opacity: 0;
-    width:0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    width: 100%;
     z-index: 99;
-    border-radius: 4px;
-    top: 20px;
-    left: 50%;
-    margin-left: -45%;
-    transition: top .25s ease-in-out, opacity .25s ease-in-out;
-    -moz-transition: top .25s ease-in-out,  opacity .25s ease-in-out;
-    -webkit-transition: top .25s ease-in-out, opacity .25s ease-in-out;
 } 
 
 .gallery-popup-show{
-    top: 64px;
     opacity: 1;
-    width: 90%;
+    bottom: 0;
+    height: auto;
+}
+
+.gallery-modal {
+    position: relative;
+    overflow: hidden;
+    top: 64px;
+    width: 950px;
+    margin: 0 auto;
     border: solid 1px $grey-color-dark;
+    border-radius: 4px;
+
+    @include media-query($on-smallscreen) {
+        width: 750px;
+    }
+
+    @include media-query($on-laptop) {
+        width: 550px;
+      }
+    
+    @include media-query($on-palm) {
+      width: 80%;
+    }
 }
 
 .gallery-close,
@@ -146,7 +165,7 @@
 }
 
 .gallery-max {
-    right:42px;
+    right:43px;
     border-bottom-left-radius: 4px;
 
     &,
@@ -159,6 +178,8 @@
 }
 
 .gallery-image-ctr {
+    background-color: $background-color;
+
     @include media-query($on-palm) {
         height: 400px;
         overflow: scroll;
@@ -166,6 +187,15 @@
 }
 
 .gallery-image {
+    display: block;
+    max-height:800px;
+    margin: 0 auto;
+    
+    @include media-query($on-smallscreen) {
+        max-height:600px;
+    }
+    
+
     @include media-query($on-palm) {
         max-width: 1024px;
     }
