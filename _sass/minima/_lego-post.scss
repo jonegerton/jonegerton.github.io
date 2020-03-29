@@ -6,17 +6,21 @@
 
 .parts-header {
     font-weight: bold;
+    font-size: 14px;
 }
 .parts-row {
     display:flex;
     flex-direction: row;
     line-height: 22px;
     margin-bottom: 8px;
+
+    &:nth-child(2) {
+        background-color: &grey-color-light;
+    }
 }
 .parts-image {
     
 }
-
 .parts-image-ctr{
     flex: 0 0 100px;
     text-align: center;
