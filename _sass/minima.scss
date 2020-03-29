@@ -17,6 +17,7 @@ $brand-color:      #2a7ae2 !default;
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
+$grey-modal-background: rgba( $grey-color-dark, .3);
 
 $table-text-align: left !default;
 
@@ -37,6 +38,12 @@ $on-smallscreen:   1024px !default;
 // }
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin media-query-height($device) {
+  @media screen and (max-height: $device) {
     @content;
   }
 }

@@ -7,6 +7,7 @@
     var close = document.getElementById("gallery-close");
     var max = document.getElementById("gallery-max");
     var popup = document.getElementById("gallery-popup");
+    var modal = document.getElementById("gallery-modal");
     var image = document.getElementById("gallery-image");
     var gallery = document.getElementById("gallery");
     var items = document.getElementsByClassName("gallery-item");
@@ -34,7 +35,8 @@
     }
 
     left.onclick = function (e) {
-    
+        e.stopPropagation();
+
         var leftPos = parseInt(scroller.style.left || "0");
         if (leftPos >= 0) return;
         leftPos = (leftPos > -scrollStep) ? 0 : leftPos + scrollStep
@@ -47,7 +49,8 @@
         return false;
     }
     right.onclick = function (e) {
-    
+        e.stopPropagation();
+        
         var leftPos = -parseInt(scroller.style.left || "0"); //left will be <=0, so flip for math and flip back to set       
         var maxLeft = scroller.scrollWidth - gallery.clientWidth; //Can change if windows resized
 
@@ -58,10 +61,15 @@
         left.className = left.className.replace(" atEnd", "");
         if (leftPos == maxLeft) right.className += " atEnd"
                 
+        
         return false;
     }
 
-    close.onclick = function (e) {
+    function closeHandler (e, currentTarget) {
+
+        e.stopPropagation();
+        if (e.target != currentTarget) return false;
+
         popup.className = popup.className.replace(" gallery-popup-show", "");
         setTimeout(function () {
             image.setAttribute("src", "#");
@@ -69,6 +77,13 @@
         },250);
         return false;
     }
+
+    close.onclick = function (e) {
+        closeHandler(e, close)
+    };
+    popup.onclick = function (e) {
+        closeHandler(e, popup)
+    };
 
     // Borrowed and tweaked from https://stackoverflow.com/questions/23885255/how-to-remove-ignore-hover-css-style-on-touch-devices
     function watchForHover(container) {
