@@ -21,9 +21,30 @@ layout: default
   {%- if page.images -%}
    {%- include gallery.html images = page.images image-root = page.image-root -%}
   {%- endif -%}
+  
+  {%- if page.completeness -%}
+    {%- if page.completeness == 100 -%}
+      {%- assign completeClass="complete" -%}
+      {%- assign completeDesc="Complete" -%}
+    {%- elsif page.completeness > 70 -%}
+      {%- assign completeClass="nearly" -%}
+      {%- assign completeDesc="Incomplete - " | append: page.completeness | append: "%" -%}
+    {%- else -%}
+      {%- assign completeClass="incomplete" -%}
+      {%- assign completeDesc="Incomplete - " | append: page.completeness | append: "%" -%}
+    {%- endif -%}
+    <section class="completeness">
+      <header>
+        <h3>
+          Completeness:
+          <span class="completeness-value {{ completeClass }}"> {{completeDesc}} </span>
+        </h3>
+      </header>
+    </section>       
+  {%- endif -%}
 
   {%- if page.facts -%}
-  <aside class="facts">
+  <section class="facts">
     <header>  
       <h3>
         Fact File
@@ -45,10 +66,10 @@ layout: default
         </div>
       {%- endfor -%}
     </div>
-  </aside>
+  </section>
   {%- endif -%}
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content e-content lego-content" itemprop="articleBody">
     {{ content }}
   </div>
 

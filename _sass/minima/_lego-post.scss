@@ -1,7 +1,12 @@
+.lego-content {
+    margin-top: 16px;
+}
+
 .parts-table {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 16px;
 }
 
 .parts-header {
@@ -116,4 +121,22 @@
     .fact {
         width:100%;
     }
+}
+
+.completeness {
+    margin-top: 16px;
+}
+.completeness-value {    
+    font-weight: bold;
+
+    &.complete {
+        color: green;
+    }
+    &.nearly {
+        color: darkorange;
+    }
+    &.incomplete {
+        color: red;
+    }
+    
 }
