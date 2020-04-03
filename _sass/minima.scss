@@ -47,6 +47,13 @@ $on-smallscreen:   1024px !default;
   font-size: $base-font-size * $ratio;
 }
 
+@mixin user-select ($value: none) {
+	-webkit-user-select: $value;
+	   -moz-user-select: $value;
+	    -ms-user-select: $value;
+	        user-select: $value;
+}
+
 // Import partials.
 @import
   "minima/base",
