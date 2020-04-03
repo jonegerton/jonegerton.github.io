@@ -56,7 +56,7 @@ layout: default
           <div class="fact-key">{{ fact[0] }} </div>
           <div class="fact-value">
             
-            {% assign first4 = fact[1][0] | slice: 0, 4 %}
+            {% assign first4 = fact[1] | slice: 0, 4 %}
             {% if first4 == "http" %}
               <a href="{{ fact[1] }}" target="_blank">Click</a>
             {%- else -%}
