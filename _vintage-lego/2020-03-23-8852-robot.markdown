@@ -14,6 +14,7 @@ images:
     - 854-top.jpg
     - 854-steering.jpg
     - 854-bottom.jpg
+missing-parts-image-credit: Parts images from bricklink.com
 missing-parts:
     3941:
         number: 3941
