@@ -2,11 +2,12 @@
 layout: lego-post
 title:  "854 - Go Kart"
 date:   2020-03-12 22:44:00 +0000
+last_modified_at: 2020-04-03 19:31:00 +0000
 categories: Lego
 permalink: /lego/854-go-kart/
 completeness: 99
-image-root: /assets/lego/854-go-kart/
-thumb-nail: 854-side.jpg
+image_root: /assets/lego/854-go-kart/
+thumb_nail: 854-side.jpg
 images:
     - 854-side.jpg
     - 854-engine.jpg
@@ -20,14 +21,14 @@ facts:
     Year: 1978
     Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=854-1#T=S&O={%22iconly%22:0}
     Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/854/GoKart
-missing-parts:
+missing_parts:
   854stk01:
     name: "Sticker Sheet for Set 854"
     color: "N/A"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=854stk01&idColor=0
     image: https://img.bricklink.com/P/0/854stk01.jpg
-missing-parts-image-credit: Parts images from bricklink.com
+missing_parts_image_credit: Parts images from bricklink.com
 ---
 
 This was the model that started the project, when I found all my childhood lego in the attic at my parents house, along with the original box for the model (sadly not the instructions). Its the first Technic model I have any memory of.

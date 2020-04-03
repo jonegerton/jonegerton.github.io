@@ -2,6 +2,7 @@
 layout: lego-post
 title:  "8852 Robot"
 date:   2020-03-12 22:44:00 +0000
+last_modified_at: 2020-04-03 15:12:00 +0000
 categories: Lego
 permalink: /lego/8852-robot/
 completeness: 95
@@ -11,7 +12,7 @@ facts:
     Year: 1987
     Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8852-1#T=S&O={%22iconly%22:0}
     Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/8852/Robot
-image-root: /assets/lego/8852-robot/
+image_root: /assets/lego/8852-robot/
 images:
     - 854-side.jpg
     - 854-engine.jpg
@@ -19,8 +20,8 @@ images:
     - 854-top.jpg
     - 854-steering.jpg
     - 854-bottom.jpg
-missing-parts-image-credit: Parts images from bricklink.com
-missing-parts:
+missing_parts_image_credit: Parts images from bricklink.com
+missing_parts:
     2429:
         number: 2429/2430 
         name: Hinge Plate 1 x 4 Swivel Base with Same Color Hinge Plate 1 x 4 Swivel Top (2429 / 2430)
