@@ -6,7 +6,12 @@
     border: solid 1px $grey-color-light;
     border-radius: 4px;
     overflow: hidden;
-    height: 152px;
+    height: 252px;
+    cursor: pointer;
+    
+    @include media-query($on-palm) {
+        height: 152px;
+    }
 }
 
 .gallery-left,
@@ -17,8 +22,9 @@
     pointer-events: none;
     z-index: 1;
     background-color: $grey-color-dark;
-    color: $grey-color-light;
+    color: $white-color;
     line-height: 150px;
+    margin-top:50px;
     vertical-align: middle;
     padding: 0 10px;
     opacity: 0;
@@ -27,12 +33,16 @@
     -webkit-transition: opacity .25s ease-in-out;
     cursor: pointer;
 
+    @include media-query($on-palm) {
+        margin-top:0;
+    }
+
     .gallery.hasHover & {
         display: block;
     }
 
     .gallery:hover & {
-        opacity: .5;
+        opacity: .6;
         pointer-events: auto;
     }
     
@@ -47,8 +57,15 @@
     }
 }
 
+.gallery-left {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
 .gallery-right {
     right: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 .gallery-items {
@@ -86,8 +103,12 @@
 }
 
 .gallery-thumb {
-    height: 150px;
-    max-width: 400px;
+    height: 250px;
+    max-width: none;
+    
+    @include media-query($on-palm) {
+        height: 150px;
+    }
 }
 
 .gallery-popup {
@@ -146,11 +167,11 @@
     display: none;
     cursor: pointer;
     font-size: 18px;
-    color: $grey-color-light;
+    color: $white-color;
     top: 0;
     padding: 8px 16px 12px;
     background-color: $grey-color-dark;
-    opacity: 0.5;
+    opacity: 0.6;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;

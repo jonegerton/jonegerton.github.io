@@ -2,9 +2,7 @@
 layout: default
 ---
 
-{%- if page.images -%}
-{%- include gallery.html images = page.images image-root = page.image-root -%}
-{%- endif -%}
+
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -18,7 +16,37 @@ layout: default
       {%- if page.author -%}
         <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
-  </header>
+  </header>  
+
+  {%- if page.images -%}
+   {%- include gallery.html images = page.images image-root = page.image-root -%}
+  {%- endif -%}
+
+  {%- if page.facts -%}
+  <aside class="facts">
+    <header>  
+      <h3>
+        Fact File
+      </h3>
+    </header>
+    <div class="fact-list">
+      {%- for fact in page.facts -%}
+        <div class="fact">
+          <div class="fact-key">{{ fact[0] }} </div>
+          <div class="fact-value">
+            
+            {% assign first4 = fact[1][0] | slice: 0, 4 %}
+            {% if first4 == "http" %}
+              <a href="{{ fact[1] }}" target="_blank">Click</a>
+            {%- else -%}
+              {{ fact[1] }}
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </aside>
+  {%- endif -%}
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
@@ -32,7 +60,7 @@ layout: default
     <div class="parts-row parts-header">
       <div class="parts-image-ctr"></div>
       <div class="parts-link">Code</div>
-      <div class="parts-quantity">Quantity</div>
+      <div class="parts-quantity">Qty</div>
       <div class="parts-color">Color</div>
       <div class="parts-name">Name</div>
     </div>

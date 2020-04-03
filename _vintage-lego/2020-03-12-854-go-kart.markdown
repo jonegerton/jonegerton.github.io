@@ -1,12 +1,12 @@
 ---
 layout: lego-post
-title:  "854 Go Kart"
+title:  "854 - Go Kart"
 date:   2020-03-12 22:44:00 +0000
 categories: Lego
 permalink: /lego/854-go-kart/
-setlink: https://www.bricklink.com/v2/catalog/catalogitem.page?S=854-1#T=S&O={%22iconly%22:0}
-instructionslink: https://lego.brickinstructions.com/en/lego_instructions/set/854/GoKart
-image-root: /assets/lego/854/
+completeness: 99
+image-root: /assets/lego/854-go-kart/
+thumb-nail: 854-side.jpg
 images:
     - 854-side.jpg
     - 854-engine.jpg
@@ -14,6 +14,17 @@ images:
     - 854-top.jpg
     - 854-steering.jpg
     - 854-bottom.jpg
+facts:
+    Catgegory:
+      - Technic
+    Parts:
+      - 206
+    Year:
+      - 1978
+    Full Details: 
+      - https://www.bricklink.com/v2/catalog/catalogitem.page?S=854-1#T=S&O={%22iconly%22:0}
+    Instructions: 
+      - https://lego.brickinstructions.com/en/lego_instructions/set/854/GoKart
 missing-parts:
   854stk01:
     name: "Sticker Sheet for Set 854"
@@ -21,12 +32,6 @@ missing-parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=854stk01&idColor=0
     image: https://img.bricklink.com/P/0/854stk01.jpg
-  3680c01:
-    name: "Blue Turntable 2 x 2 Plate, Base with Light Gray Turntable 2 x 2 Plate, Top"
-    color: "Blue/Gray"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3680c01&idColor=7
-    image: https://img.bricklink.com/P/7/3680c01.jpg
 missing-parts-image-credit: Parts images from bricklink.com
 ---
 
