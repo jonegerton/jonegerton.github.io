@@ -25,7 +25,7 @@ $table-text-align: left !default;
 // Width of the content area
 $content-width:    800px !default;
 $content-wide:     1024px !default;
-$minimum-width:    340px !default;
+$minimum-width:    380px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
@@ -60,6 +60,7 @@ $on-smallscreen:   1024px !default;
   "minima/layout",
   "minima/syntax-highlighting",
   "minima/gallery",
+  "minima/collapsible",
   "minima/cookie-consent",
-  "minima/lego-post"
+  "minima/lego"
 ;

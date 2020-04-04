@@ -1,0 +1,51 @@
+
+.collapsible {
+    position: relative;
+    height: 180px;
+    overflow: hidden;
+    transition: height .5s ease-in-out;
+    -moz-transition: height .5s ease-in-out;
+    -webkit-transition: height .5s ease-in-out;
+      
+    &:after {
+        content: '';
+        position: absolute;
+        right: 0; bottom: 0; left: 0;
+        height: 80px;
+        z-index: 1;
+        background: linear-gradient(transparent, 30%, $background-color);
+    }
+
+    &.expanded {
+    
+        &:after {
+            display: none;
+        }
+    }
+  }
+    
+  .expander {
+    cursor: pointer;
+    position: absolute;
+    font-size: 18px;
+    color: $white-color;
+    bottom: 0;
+    right: 0;
+    padding: 4px 16px;
+    background-color: $grey-color-dark;
+    border-radius: 4px;
+    z-index: 2;
+    opacity: 0.6;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    @include user-select;
+  
+    &:hover {
+        opacity: .8;
+    }
+  
+    @include media-query($on-palm) {
+        opacity: .7;
+    }
+  }

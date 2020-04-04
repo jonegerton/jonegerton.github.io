@@ -16,7 +16,10 @@ collection: vintage-lego
     <span class="rss-subscribe"></span>Subscribe <a href="http://feeds.feedburner.com/{{ page.feed }}">via RSS</a></span>
 {% endif %}
 </p>
+<script type="text/javascript" defer src="{{ "/assets/js/collapsible.js" | relative_url }}" ></script>
 
+<article class="collapsible">
+    
 <p>
     The vintage lego project came about when I found a large box of old lego in the attic of my parents house, where it had sat for at least 25 years. Along with it was the original box for the vintage <a href="{% link _vintage-lego/2020-03-12-854-go-kart.markdown %}">Go Kart #854</a> (but sadly no instructions). I found instructions online and started to build it.
 </p>
@@ -24,25 +27,43 @@ collection: vintage-lego
     As I did so I found parts of more and more sets that I remembered from my childhood, such as Car Chassis #8860, Starfleet Voyager #6929 and Space Command #6971, along with lots of distinctive parts that came from sets that I couldn't recall. It seemed that it would be a fun project to build up those models I could remember, and try turn detective to figure out which other sets there were based on the parts that I had.    
 </p>
 <p>
-    Over the years a number of the parts had disappeared (including a huge tyre from the Car Chassis - where could have have possibly gone?!?), so i've filled in the blanks by getting used parts from Brick Owl, rather than getting brand new pieces that would stand out against the very well played with, and often discoloured, pieces in the box.
+    Over the years a number of the parts had disappeared (including a huge tyre from the Car Chassis - where could that have possibly gone?!?), so i've filled in the blanks by getting used parts from Brick Owl, rather than getting brand new pieces that would stand out against the very well played with, and often discoloured, pieces in the box.
 </p>
 <p>
     The first table below lists the sets I've worked on so far, including a rough estimation of how complete they are based on how much I've done and how many parts are missing. Click through for more details on each set, including a photo gallery of the set. After that is a list of the sets I know I have, that I've not yet started on.
 </p>
 
+</article>
 
-<ul class="post-list">
+<aside class="set-table">
+  <header>
+    <h3>Sets</h3>
+  </header>
+  <div class="set-row set-header">
+    <div class="set-image-ctr"></div>
+    <div class="set-modified">Modified</div>
+    <div class="set-completeness">%</div>
+    <div class="set-name">Name</div>
+  </div>
 
-{%- assign sorted = posts | sort: post.completeness -%}
-{%- for post in sorted reversed -%}
-    
-    <li>
-    <h3>
-        <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-        </a>
-    </h3>
-    </li>
-{%- endfor -%}
-</ul>
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  {%- assign sorted = posts | sort: 'last_modified_at' -%}
+  {%- for post in sorted reversed -%} 
+    {%- if post.completeness == 100 -%}
+        {%- assign completeClass="complete" -%}
+        {%- assign completeDesc="Complete" -%}
+    {%- elsif post.completeness > 70 -%}
+        {%- assign completeClass="nearly" -%}
+        {%- assign completeDesc="Incomplete - " | append: post.completeness | append: "%" -%}
+    {%- else -%}
+        {%- assign completeClass="incomplete" -%}
+        {%- assign completeDesc="Incomplete - " | append: post.completeness | append: "%" -%}
+    {%- endif -%}
+  <div class="set-row">
+    <div class="set-image-ctr"><img class="set-image" src="{{ post.image_root | append: 'thumb-' | append: post.thumb_nail }}" alt="{{ post.title }}" /></div>
+    <div class="set-modified">{{ post.last_modified_at | date: date_format}}</div>
+    <div class="set-completeness {{completeClass}}">{{ completeDesc }}</div>
+    <div class="set-name"><a href="{{ post.url | relative_url }}" target="_top">{{ post.title }}</a></div>
+  </div>
+  {%- endfor -%}
+</aside>

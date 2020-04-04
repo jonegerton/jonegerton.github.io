@@ -27,7 +27,7 @@
     flex: 0 0 100px;
     text-align: center;
     margin: 4px;
-    height: 60px;
+    min-height: 60px;
     background-color: white;
 
     .parts-header & {
@@ -76,6 +76,82 @@
         margin-top: -30px;
 
         .parts-header & {
+            display: none;
+        }
+    }
+}
+
+
+.set-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.set-header {
+    font-weight: bold;
+    font-size: 14px;
+}
+.set-row {
+    display:flex;
+    flex-direction: row;
+    line-height: 22px;
+    margin-bottom: 8px;
+
+    &:nth-child(2n+1) {
+        background-color: $grey-color-light;
+    }
+}
+.set-image-ctr{
+    flex: 0 0 100px;
+    text-align: center;
+    margin: 4px;
+    min-height: 60px;
+    background-color: white;
+
+    .set-header & {
+        height: 0;
+    }
+}
+.set-modified{
+    padding: 4px;
+    flex: 0 0 100px;
+}
+.set-name {
+    padding: 4px;
+    flex: 0 0 auto;
+    width: calc(100% - 360px);
+}
+
+.set-completeness {
+    padding: 4px;
+    flex: 0 0 140px;
+
+    &.complete {
+        color: green;
+    }
+    &.nearly {
+        color: darkorange;
+    }
+    &.incomplete {
+        color: red;
+    }
+}
+
+
+@include media-query($on-laptop) {
+    
+    .set-row {
+        flex-wrap: wrap;
+    }
+        
+    .set-name {
+        width: 100%;
+        padding-left: 112px;
+        margin-top: -30px;
+
+        .set-header & {
             display: none;
         }
     }
