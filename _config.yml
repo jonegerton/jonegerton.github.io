@@ -64,6 +64,7 @@ feed:
 header_pages:
   - geekery.html
   - dev.html
+  - vintage-lego.html
 
 collections:
   vintage-lego:

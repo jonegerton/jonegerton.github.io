@@ -35,7 +35,7 @@
     background-color: $grey-color-dark;
     border-radius: 4px;
     z-index: 2;
-    opacity: 0.6;
+    opacity: 0.5;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
@@ -47,5 +47,9 @@
   
     @include media-query($on-palm) {
         opacity: .7;
+
+        &:hover{
+            opacity: .7;
+        }
     }
   }

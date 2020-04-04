@@ -16,8 +16,6 @@
         expander.innerText = "˅";
         collapsible.appendChild(expander);
 
-        container.innerHTML = collapsible.innerHTML
-
         expander.onclick = function() {
             if (collapsible.className.indexOf("expanded") > -1) {
                 expander.innerText = "˅";

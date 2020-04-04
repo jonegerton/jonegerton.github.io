@@ -7,7 +7,7 @@
   <span class="gallery-items">
   <ul id="gallery-scroller" class="gallery-scroller">
     {% for image in images %}
-      <li class="gallery-item" data-image-src="{{ include.image-root | relation_url }}{{ image }}" data-image-alt="{{ image }}">
+      <li class="gallery-item" data-image-src="{{ include.image_root | relation_url }}{{ image }}" data-image-alt="{{ image }}">
           <img class="gallery-thumb" src="{{ include.image_root | relation_url }}thumb-{{ image }}" alt="{{ image }}">
       </li>
     {% endfor %}

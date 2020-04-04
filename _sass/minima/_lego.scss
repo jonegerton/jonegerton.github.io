@@ -111,7 +111,7 @@
     background-color: white;
 
     .set-header & {
-        height: 0;
+        min-height: 0;
     }
 }
 .set-modified{
@@ -157,6 +157,33 @@
     }
 }
 
+
+.todo-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 16px;
+}
+.todo-row {
+    display:flex;
+    flex-direction: row;
+    line-height: 22px;
+    margin-bottom: 8px;
+
+    &:nth-child(2n) {
+        background-color: $grey-color-light;
+    }
+}
+.todo-image-ctr{
+    flex: 0 0 100px;
+    text-align: center;
+    margin: 4px;
+}
+.todo-name {
+    padding: 4px;
+    flex: 0 0 auto;
+    width: calc(100% - 120px);
+}
 
 .facts {
     margin-top: 16px;

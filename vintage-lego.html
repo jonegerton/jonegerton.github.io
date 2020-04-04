@@ -4,6 +4,17 @@ title:  Vintage Lego
 permalink: /vintage-lego/index.html
 feed: jonegerton-vintage-lego
 collection: vintage-lego
+
+todo_list:
+  8860:
+    name: Car Chassis
+    thumb_nail: 8860-car-chassis.jpg
+  6929:
+    name: Starfleet Voyager
+    thumb_nail: 6929-starfleet-voyager.jpg    
+  6971:
+    name: Intergalactic Command Base
+    thumb_nail: 6971-intergalactic-command-base.jpg
 ---
 
 {% assign collection = page.collection %}
@@ -24,7 +35,7 @@ collection: vintage-lego
     The vintage lego project came about when I found a large box of old lego in the attic of my parents house, where it had sat for at least 25 years. Along with it was the original box for the vintage <a href="{% link _vintage-lego/2020-03-12-854-go-kart.markdown %}">Go Kart #854</a> (but sadly no instructions). I found instructions online and started to build it.
 </p>
 <p>
-    As I did so I found parts of more and more sets that I remembered from my childhood, such as Car Chassis #8860, Starfleet Voyager #6929 and Space Command #6971, along with lots of distinctive parts that came from sets that I couldn't recall. It seemed that it would be a fun project to build up those models I could remember, and try turn detective to figure out which other sets there were based on the parts that I had.    
+    As I did so I found parts of more and more sets that I remembered from my childhood, such as Car Chassis #8860, Starfleet Voyager #6929 and Intergalactic Command Base #6971, along with lots of distinctive parts that came from sets that I couldn't recall. It seemed that it would be a fun project to build up those models I could remember, and turn detective to figure out which other sets there were based on the parts that I had.    
 </p>
 <p>
     Over the years a number of the parts had disappeared (including a huge tyre from the Car Chassis - where could that have possibly gone?!?), so i've filled in the blanks by getting used parts from Brick Owl, rather than getting brand new pieces that would stand out against the very well played with, and often discoloured, pieces in the box.
@@ -41,8 +52,8 @@ collection: vintage-lego
   </header>
   <div class="set-row set-header">
     <div class="set-image-ctr"></div>
-    <div class="set-modified">Modified</div>
-    <div class="set-completeness">%</div>
+    <div class="set-modified">Last Updated</div>
+    <div class="set-completeness">Status</div>
     <div class="set-name">Name</div>
   </div>
 
@@ -64,6 +75,19 @@ collection: vintage-lego
     <div class="set-modified">{{ post.last_modified_at | date: date_format}}</div>
     <div class="set-completeness {{completeClass}}">{{ completeDesc }}</div>
     <div class="set-name"><a href="{{ post.url | relative_url }}" target="_top">{{ post.title }}</a></div>
+  </div>
+  {%- endfor -%}
+</aside>
+
+<aside class="todo-table">
+  <header>
+    <h3>Todo List</h3>
+  </header>
+  {%- for id in page.todo_list -%}
+  {%- assign todo = id[1] -%}
+  <div class="todo-row">
+    <div class="todo-image-ctr"><img class="todo-image" src="{{ '/assets/lego/todo/' | append: todo.thumb_nail }}" alt="{{ post.title }}" /></div>
+    <div class="todo-name">{{ id[0] }} - {{ todo.name }}</div>
   </div>
   {%- endfor -%}
 </aside>
