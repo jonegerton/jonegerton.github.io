@@ -4,7 +4,7 @@ title:  "8852 Robot"
 date:   2020-03-12 22:44:00 +0000
 last_modified_at: 2020-04-03 15:12:00 +0000
 categories: Lego
-permalink: /lego/8852-robot/
+permalink: /vintage-lego/8852-robot/
 completeness: 95
 facts:
     Catgegory: Technic

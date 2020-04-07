@@ -4,12 +4,13 @@ title:  "854 - Go Kart"
 date:   2020-03-12 22:44:00 +0000
 last_modified_at: 2020-04-03 19:31:00 +0000
 categories: Lego
-permalink: /lego/854-go-kart/
+permalink: /vintage-lego/854-go-kart/
 completeness: 99
 image_root: /assets/lego/854-go-kart/
 thumb_nail: 854-side.jpg
 images:
     - 854-side.jpg
+    - 854-with-box.jpg
     - 854-engine.jpg
     - 854-front.jpg
     - 854-top.jpg

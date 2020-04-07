@@ -1,0 +1,39 @@
+---
+layout: lego-post
+title:  "8824 - Hovercraft"
+date:   2020-04-07 20:25:00 +0000
+last_modified_at: 2020-04-07 20:25:00 +0000
+categories: Lego
+permalink: /vintage-lego/8824-hovercraft/
+completeness: 99
+image_root: /assets/lego/8824-hovercraft/
+thumb_nail: 8824-front-side.jpg
+images:
+    - 8824-front-side.jpg
+    - 8824-front.jpg
+    - 8824-side.jpg
+    - 8824-rear.jpg
+    - 8824-top.jpg
+    - 8824-bottom.jpg
+    
+facts:
+    Catgegory: Technic
+    Parts: 193
+    Year: 1993
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8824-1#T=I
+    Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/8824/hovercraft
+missing_parts:
+  4288:
+    name: "Wheel Full Rubber Balloon with Axle Hole"
+    color: "Black"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4288&idColor=11
+    image: https://img.bricklink.com/P/11/4288.jpg       
+missing_parts_image_credit: Parts images from bricklink.com
+---
+
+This set would have been from right at the end of my lego playing days (as a child anyway). I don't have strong recollections of it.
+
+The set has a couple of interesting features: The hovercraft skirt is mimicked using unusual rubber bumpers (2991. 2989, 70961, and 70962), while a special gear (6542) allows the steering column to pass through the middle of the propeller drive train.
+
+At the moment the set is pictured with a small gear at the top of the steering column as I hadn't noticed that a different rubber part was used on the original, which I don't have and haven't yet replaced.
