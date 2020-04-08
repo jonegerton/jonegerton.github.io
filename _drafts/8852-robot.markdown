@@ -29,13 +29,6 @@ missing_parts:
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=2429c01&idColor=3#T=C&C=3
         image: https://img.bricklink.com/P/3/2429c01.jpg
-    2695:
-        number: 2695/2696
-        name: Wheel 30mm D. x 13mm (13 x 24 Model Team), with Black Tire 13 x 24 Model Team
-        color: Light Gray
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=2695c01&idColor=9
-        image: https://img.bricklink.com/P/9/2695c01.jpg
     3069bp06: 
         number: 3069bp06
         name: Tile 1 x 2 with Groove with Arrow Long Yellow with Black Border Pattern
@@ -57,13 +50,6 @@ missing_parts:
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069bp05&idColor=3
         image: https://img.bricklink.com/P/3/3069bp05.jpg
-    3070b:
-        number: 3070b
-        name: Tile 1 x 1 with Groove
-        color: Yellow
-        quantity: 2
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3070b&idColor=3
-        image: https://img.bricklink.com/P/3/3070b.jpg
     3666:
         number: 3666
         name: Plate 1 x 6
