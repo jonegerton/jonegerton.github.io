@@ -66,6 +66,9 @@ todo_list:
   6828:
     name: Twin-Winged Spoiler
     thumb_nail: 6828-twin-winged-spoiler.jpg
+  6677:
+    name: Motocross Racing
+    thumb_nail: 6677-motocross-racing.jpg  
 ---
 
 {% assign collection = page.collection %}
@@ -114,7 +117,7 @@ todo_list:
     {%- if post.completeness == 100 -%}
         {%- assign completeClass="complete" -%}
         {%- assign completeDesc="Complete" -%}
-    {%- elsif post.completeness > 70 -%}
+    {%- elsif post.completeness > 80 -%}
         {%- assign completeClass="nearly" -%}
         {%- assign completeDesc="Incomplete - " | append: post.completeness | append: "%" -%}
     {%- else -%}

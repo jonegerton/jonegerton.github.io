@@ -30,7 +30,7 @@ layout: default
     {%- if page.completeness == 100 -%}
       {%- assign completeClass="complete" -%}
       {%- assign completeDesc="Complete" -%}
-    {%- elsif page.completeness > 70 -%}
+    {%- elsif page.completeness > 80 -%}
       {%- assign completeClass="nearly" -%}
       {%- assign completeDesc="Incomplete - " | append: page.completeness | append: "%" -%}
     {%- else -%}
