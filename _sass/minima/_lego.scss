@@ -99,6 +99,14 @@
     line-height: 22px;
     margin-bottom: 8px;
 
+    &,
+    &:hover,
+    &:active,
+    &:visited {
+        text-decoration: none;
+        color: $text-color;
+    }
+    
     &:nth-child(2n+1) {
         background-color: $grey-color-light;
     }
