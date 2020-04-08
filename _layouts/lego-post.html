@@ -2,7 +2,7 @@
 layout: default
 ---
 
-
+<script type="text/javascript" defer src="{{ "/assets/js/collapsible.js" | relative_url }}" ></script>
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -73,7 +73,7 @@ layout: default
   </section>
   {%- endif -%}
 
-  <div class="post-content e-content lego-content" itemprop="articleBody">
+  <div class="post-content e-content lego-content collapsible" itemprop="articleBody">
     {{ content }}
   </div>
 
