@@ -1,0 +1,63 @@
+---
+layout: lego-post
+title:  "8852 - Robot"
+date:   2020-04-09 20:55:00 +0000
+last_modified_at: 2020-04-09 20:55:00 +0000
+categories: Lego
+permalink: /vintage-lego/8852-robot/
+completeness: 95
+facts:
+    Catgegory: Technic
+    Parts: 322
+    Year: 1987
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8852-1#T=S&O={%22iconly%22:0}
+    Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/8852/Robot
+image_root: /assets/lego/8852-robot/
+thumb_nail: 8852-half-side.jpg
+images:
+    - 8852-up-front.jpg
+    - 8852-up-back.jpg
+    - 8852-half-front.jpg
+    - 8852-half-side.jpg
+    - 8852-down-top.jpg
+    - 8852-down-front.jpg
+    - 8852-down-back.jpg
+missing_parts_image_credit: Parts images from bricklink.com
+missing_parts:
+    2429:
+        number: 2429/2430 
+        name: Hinge Plate 1 x 4 Swivel Base with Same Color Hinge Plate 1 x 4 Swivel Top (2429 / 2430)
+        color: Yellow
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=2429c01&idColor=3#T=C&C=3
+        image: https://img.bricklink.com/P/3/2429c01.jpg
+    3069bp06: 
+        number: 3069bp06
+        name: Tile 1 x 2 with Groove with Arrow Long Yellow with Black Border Pattern
+        color: Light Gray
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069bp06&idColor=9
+        image: https://img.bricklink.com/P/9/3069bp06.jpg
+    4221: 
+        number: 4221
+        name: Arm Grab Jaw
+        color: Light Gray
+        quantity: 2
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4221&idColor=9
+        image: https://img.bricklink.com/P/9/4221.jpg
+    3069bp05: 
+        number: 3069bp05
+        name: Tile 1 x 2 with Groove with Black Grille Pattern
+        color: Yellow
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069bp05&idColor=3
+        image: https://img.bricklink.com/P/3/3069bp05.jpg
+    3666:
+        number: 3666
+        name: Plate 1 x 6
+        color: Yellow
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3666&idColor=3
+        image: https://img.bricklink.com/P/3/3666.jpg
+---
+

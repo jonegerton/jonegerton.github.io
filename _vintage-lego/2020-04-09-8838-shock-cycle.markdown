@@ -1,25 +1,27 @@
 ---
 layout: lego-post
-title:  "8852 Robot"
-date:   2020-03-12 22:44:00 +0000
-last_modified_at: 2020-04-03 15:12:00 +0000
+title:  "8838 - Shock Cycle"
+date:   2020-04-09 22:10:00:00 +0000
+last_modified_at: 2020-04-09 22:10:00 +0000
 categories: Lego
-permalink: /vintage-lego/8852-robot/
+permalink: /vintage-lego/8838-shock-cycle/
 completeness: 95
 facts:
     Catgegory: Technic
-    Parts: 322
-    Year: 1987
-    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8852-1#T=S&O={%22iconly%22:0}
-    Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/8852/Robot
-image_root: /assets/lego/8852-robot/
+    Parts: 247
+    Year: 1991
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8838-1#T=S&O={%22iconly%22:0}
+    Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/8838/Dirt_Bike
+image_root: /assets/lego/8838-shock-cycle/
+thumb_nail: 8852-half-side.jpg
 images:
-    - 854-side.jpg
-    - 854-engine.jpg
-    - 854-front.jpg
-    - 854-top.jpg
-    - 854-steering.jpg
-    - 854-bottom.jpg
+    - 8852-up-front.jpg
+    - 8852-up-back.jpg
+    - 8852-half-front.jpg
+    - 8852-half-side.jpg
+    - 8852-down-top.jpg
+    - 8852-down-front.jpg
+    - 8852-down-back.jpg
 missing_parts_image_credit: Parts images from bricklink.com
 missing_parts:
     2429:
