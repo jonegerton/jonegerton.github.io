@@ -7,7 +7,7 @@ categories: Lego
 permalink: /vintage-lego/8838-shock-cycle/
 completeness: 99
 facts:
-    Catgegory: Technic
+    Category: Technic
     Parts: 247
     Year: 1991
     Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8838-1#T=S&O={%22iconly%22:0}

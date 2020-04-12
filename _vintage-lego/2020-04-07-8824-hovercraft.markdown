@@ -17,7 +17,7 @@ images:
     - 8824-bottom.jpg
     
 facts:
-    Catgegory: Technic
+    Category: Technic
     Parts: 193
     Year: 1993
     Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8824-1#T=I

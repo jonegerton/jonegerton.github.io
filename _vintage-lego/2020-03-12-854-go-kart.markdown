@@ -17,7 +17,7 @@ images:
     - 854-steering.jpg
     - 854-bottom.jpg
 facts:
-    Catgegory: Technic
+    Category: Technic
     Parts: 206
     Year: 1978
     Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=854-1#T=S&O={%22iconly%22:0}

@@ -16,7 +16,7 @@ images:
     - 6929-open.jpg
     - 6929-cockpit.jpg
 facts:
-    Catgegory: Space
+    Category: Space
     Parts: 242
     Year: 1981
     Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=6929-1#T=I
