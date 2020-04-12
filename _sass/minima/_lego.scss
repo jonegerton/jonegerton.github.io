@@ -11,13 +11,15 @@
 
 .parts-header {
     font-weight: bold;
-    font-size: 14px;
+    @include relative-font-size(0.9);
 }
+
 .parts-row {
     display:flex;
     flex-direction: row;
-    line-height: 22px;
     margin-bottom: 8px;
+    padding: 4px;
+
 
     &:nth-child(2n+1) {
         background-color: $grey-color-light;
@@ -31,40 +33,48 @@
     background-color: white;
 
     .parts-header & {
-        height: 0;
+        min-height: 0;
     }
 }
+.parts-details{
+    display: flex;
+    flex-direction: row;
+    align-content: start;
+    flex: 0 0 auto;
+    width: calc(100% - 114px);
+}
 .parts-color{
-    padding: 4px;
+    padding: 0 4px;
     flex: 0 0 130px;
 }
 .parts-link,
 {
-    padding:4px;
-    flex: 0 0 70px;
+    padding: 0 4px;
+    flex: 0 0 100px;
 }
 .parts-name {
-    padding: 4px;
+    padding: 0 4px;
     flex: 0 0 auto;
-    width: calc(100% - 390px);
+    width: calc(100% - 270px);
 }
 
 .parts-quantity {
-    padding: 4px;
+    padding: 0 4px;
     flex: 0 0 40px;
     text-align: center;
 }
 
 .parts-image-credit {
-    font-size: 14px;
+    @include relative-font-size(0.8);
     color: $grey-color;
     width: 100%;
 }
 
 @include media-query($on-laptop) {
     
-    .parts-row {
+    .parts-details {
         flex-wrap: wrap;
+        width: calc(100% - 74px);
     }
         
     .parts-image-ctr{
@@ -72,8 +82,6 @@
     }
     .parts-name {
         width: 100%;
-        padding-left: 72px;
-        margin-top: -30px;
 
         .parts-header & {
             display: none;
@@ -91,13 +99,13 @@
 
 .set-header {
     font-weight: bold;
-    font-size: 14px;
+    @include relative-font-size(0.9);
 }
 .set-row {
     display:flex;
     flex-direction: row;
-    line-height: 22px;
     margin-bottom: 8px;
+    padding: 4px;
 
     &,
     &:hover,
@@ -122,19 +130,27 @@
         min-height: 0;
     }
 }
+.set-details{
+    display: flex;
+    flex-direction: row;
+    align-content: start;
+    flex: 0 0 auto;
+    width: calc(100% - 114px);
+}
 .set-modified{
-    padding: 4px;
-    flex: 0 0 100px;
+    padding: 0 4px;
+    flex: 0 0 128px;
 }
 .set-name {
-    padding: 4px;
+    padding: 0 4px;
     flex: 0 0 auto;
-    width: calc(100% - 360px);
+    width: calc(100% - 380px);
+    line-height: 28px;
 }
 
 .set-completeness {
-    padding: 4px;
-    flex: 0 0 140px;
+    padding: 0 4px;
+    flex: 0 0 172px;
 
     &.complete {
         color: green;
@@ -150,14 +166,12 @@
 
 @include media-query($on-laptop) {
     
-    .set-row {
+    .set-details {
         flex-wrap: wrap;
     }
         
     .set-name {
         width: 100%;
-        padding-left: 112px;
-        margin-top: -30px;
 
         .set-header & {
             display: none;
@@ -175,7 +189,6 @@
 .todo-row {
     display:flex;
     flex-direction: row;
-    line-height: 22px;
     margin-bottom: 8px;
 
     &:nth-child(2n) {
@@ -191,6 +204,7 @@
     padding: 4px;
     flex: 0 0 auto;
     width: calc(100% - 120px);
+    line-height: 28px;
 }
 
 .facts {
@@ -211,13 +225,13 @@
 }
 
 .fact-key {
-    flex: 0 0 40%;
+    flex: 0 0 120px;
     font-weight: bold;
-    font-size: 14px;
+    @include relative-font-size(0.9);
 }
 
 .fact-value {
-    flex:0 0 60%;
+    flex:0 0 auto;
 }
 
 @include media-query($on-smallscreen) {
