@@ -10,8 +10,8 @@ Disallow: /assets
 
 User-agent: Googlebot
 Disallow: /404.html
-Disallow: /assets
-Allow: /assets/js
+Disallow: /assets/
+Allow: /assets/js/
 Allow: /assets/*.css$
 
 Sitemap: {{ site.url }}/sitemap.xml
