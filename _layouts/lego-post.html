@@ -93,10 +93,12 @@ layout: default
     {% assign part = id[1] %}  
     <div class="parts-row">
       <div class="parts-image-ctr"><img class="parts-image" src="{{ part.image }}" alt="part {{ id[0] }}" /></div>
-      <div class="parts-link"><a href="{{ part.link }}" target="_top">{{ id[0] }}</a></div>
-      <div class="parts-quantity">{{ part.quantity }}</div>
-      <div class="parts-color">{{ part.color }}</div>
-      <div class="parts-name">{{ part.name }}</div>
+      <div class="parts-details">
+        <div class="parts-link"><a href="{{ part.link }}" target="_top">{{ id[0] }}</a></div>
+        <div class="parts-quantity">{{ part.quantity }}</div>
+        <div class="parts-color">{{ part.color }}</div>
+        <div class="parts-name">{{ part.name }}</div>
+      </div>
     </div>
     {%- endfor -%}
     <p class="parts-image-credit">{{page.missing_parts_image_credit}}</p>

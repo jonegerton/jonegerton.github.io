@@ -120,9 +120,11 @@ todo_list:
     {%- endif -%}
   <a href="{{ post.url | relative_url }}" target="_top" class="set-row">
     <div class="set-image-ctr"><img class="set-image" src="{{ post.image_root | append: 'thumb-' | append: post.thumb_nail }}" alt="{{ post.title }}" /></div>
-    <div class="set-modified">{{ post.last_modified_at | date: date_format}}</div>
-    <div class="set-completeness {{completeClass}}">{{ completeDesc }}</div>
-    <div class="set-name">{{ post.title }}</div>
+    <div class="set-details">
+      <div class="set-modified">{{ post.last_modified_at | date: date_format}}</div>
+      <div class="set-completeness {{completeClass}}">{{ completeDesc }}</div>
+      <div class="set-name">{{ post.title }}</div>
+    </div>
   </a>
   {%- endfor -%}
 </aside>
