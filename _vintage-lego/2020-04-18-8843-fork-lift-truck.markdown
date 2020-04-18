@@ -47,6 +47,6 @@ missing_parts:
         image: https://img.bricklink.com/P/3/4504.jpg
 ---
 
-8843 Fork Lift Truck was one of the first generation of pneumatic lego sets. The pneumatics on my met still work ok, but with the parts on the sliders themselves being very well used, the forks need a bit of help to go up and down. 
+8843 Fork Lift Truck was one of the first generation of pneumatic lego sets. The pneumatics on my set still work ok, but with the parts on the sliders themselves being very well used, the forks need a bit of help to go up and down. 
 
 I always liked the effort gone into this model, to route the steering up to the roof, around the back, and include a moving steering wheel in the cabin itself.
