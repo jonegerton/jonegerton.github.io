@@ -229,6 +229,7 @@
     flex: 0 0 120px;
     font-weight: bold;
     @include relative-font-size(0.9);
+    padding-top: 3px;
 }
 
 .fact-value {
