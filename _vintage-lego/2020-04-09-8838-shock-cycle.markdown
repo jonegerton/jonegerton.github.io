@@ -7,9 +7,9 @@ categories: Lego
 permalink: /vintage-lego/8838-shock-cycle/
 completeness: 99
 facts:
+    Year: 1991
     Category: Technic
     Parts: 247
-    Year: 1991
     Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8838-1#T=S&O={%22iconly%22:0}
     Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/8838/Dirt_Bike
 image_root: /assets/lego/8838-shock-cycle/
@@ -22,7 +22,6 @@ images:
 missing_parts_image_credit: Parts images from bricklink.com
 missing_parts:
     2429:
-        number: 2429/2430 
         name: Rubber Band Small (Square Cross Section)
         color: Black
         quantity: 2
