@@ -2,7 +2,7 @@
 layout: lego-post
 title:  "8852 - Robot"
 date:   2020-04-09 20:55:00 +0000
-last_modified_at: 2020-04-09 20:55:00 +0000
+last_modified_at: 2020-04-19 08:40:00 +0000
 categories: Lego
 permalink: /vintage-lego/8852-robot/
 completeness: 95
@@ -24,12 +24,6 @@ images:
     - 8852-down-back.jpg
 missing_parts_image_credit: Parts images from bricklink.com
 missing_parts:
-    2429:
-        name: Hinge Plate 1 x 4 Swivel Base with Same Color Hinge Plate 1 x 4 Swivel Top (2429 / 2430)
-        color: Yellow
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=2429c01&idColor=3#T=C&C=3
-        image: https://img.bricklink.com/P/3/2429c01.jpg
     3069bp06: 
         name: Tile 1 x 2 with Groove with Arrow Long Yellow with Black Border Pattern
         color: Light Gray
