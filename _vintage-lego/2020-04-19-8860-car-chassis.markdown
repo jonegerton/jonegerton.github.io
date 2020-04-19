@@ -1,0 +1,63 @@
+---
+layout: lego-post
+title:  "8860 - Car Chassis"
+date:   2020-04-19 07:15:00 +0000
+last_modified_at: 2020-04-19 07:15:00 +0000
+categories: Lego
+permalink: /vintage-lego/8860-car-chassis/
+completeness: 95
+facts:    
+    Year: 1980
+    Category: Technic - Expert Builder
+    Parts: 668
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8860-1#T=I
+    Instructions: http://www.brickinstructions.com/lego_instructions/set/8860/Car_Chassis
+image_root: /assets/lego/8860-car-chassis/
+thumb_nail: 8860-side.jpg
+images:
+    - 8852-up-front.jpg
+    - 8852-up-back.jpg
+    - 8852-half-front.jpg
+    - 8852-half-side.jpg
+    - 8852-down-top.jpg
+    - 8852-down-front.jpg
+    - 8852-down-back.jpg
+missing_parts_image_credit: Parts images from bricklink.com
+missing_parts:
+    x467c12:
+        name: Hose, Classic 4mm D. 12L / 9.6cm (flexible)
+        color: Black
+        quantity: 4
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x467c12&idColor=11
+        image: https://img.bricklink.com/P/11/x467c12.jpg
+    x151: 
+        name: Rubber Band Extra Small (Square Cross Section)
+        color: Black
+        quantity: 2
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x151&idColor=11
+        image: https://img.bricklink.com/P/11/x151.jpg
+    x264: 
+        name: Rubber Band Large (Square Cross Section)
+        color: Black
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x264&idColor=11
+        image: https://img.bricklink.com/P/11/x264.jpg
+    3010: 
+        name: Brick 1 x 4
+        color: Light Gray
+        quantity: 5
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3010&idColor=9
+        image: https://img.bricklink.com/P/9/3010.jpg
+    3030:
+        name: Plate 4 x 10
+        color: Light Gray
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3030&idColor=9
+        image: https://img.bricklink.com/P/9/3030.jpg
+---
+
+This lego robot "transformer" was one of my favourite sets, and it's nice to see it back together. I still find the arms funny, with their lack of elbows.
+
+The racks that extend the wheels do have a tendency to run slightly too far, and the arms need to be well out of the way so that they don't get trapped while transforming from robot to truck.
+
+It's great that it is as complete as it is, with only a few parts from one arm missing at the moment.
