@@ -16,9 +16,9 @@ images:
     - 6929-open.jpg
     - 6929-cockpit.jpg
 facts:
+    Year: 1981
     Category: Space
     Parts: 242
-    Year: 1981
     Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=6929-1#T=I
     Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/6929/Starfleet_Voyager
 missing_parts:
