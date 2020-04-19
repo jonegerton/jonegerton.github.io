@@ -1,0 +1,64 @@
+---
+layout: lego-post
+title:  "8860 - Car Chassis"
+date:   2020-04-19 07:15:00 +0000
+last_modified_at: 2020-04-19 22:01:00 +0000
+categories: Lego
+permalink: /vintage-lego/8860-car-chassis/
+completeness: 95
+facts:    
+    Year: 1980
+    Category: Technic - Expert Builder
+    Parts: 668
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8860-1#T=I
+    Instructions: http://www.brickinstructions.com/lego_instructions/set/8860/Car_Chassis
+image_root: /assets/lego/8860-car-chassis/
+thumb_nail: 8860-side.jpg
+images:
+    - 8860-side.jpg
+    - 8860-side-rear.jpg
+    - 8860-gearbox.jpg
+    - 8860-top.jpg
+    - 8860-steering.jpg
+    - 8860-top-front.jpg
+    - 8860-top-side.jpg
+    - 8860-seat-detail.jpg
+    - 8860-drivetrain.jpg
+    - 8860-front.jpg
+missing_parts_image_credit: Parts images from bricklink.com
+missing_parts:
+    x467c12:
+        name: Hose, Classic 4mm D. 12L / 9.6cm (flexible)
+        color: Black
+        quantity: 4
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x467c12&idColor=11
+        image: https://img.bricklink.com/P/11/x467c12.jpg
+    x151: 
+        name: Rubber Band Extra Small (Square Cross Section)
+        color: Black
+        quantity: 2
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x151&idColor=11
+        image: https://img.bricklink.com/P/11/x151.jpg
+    x264: 
+        name: Rubber Band Large (Square Cross Section)
+        color: Black
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x264&idColor=11
+        image: https://img.bricklink.com/P/11/x264.jpg
+    3030:
+        name: Plate 4 x 10
+        color: Light Gray
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3030&idColor=9
+        image: https://img.bricklink.com/P/9/3030.jpg
+---
+
+In it's day, the 8860 Car Chassis set represented the state-of-the-art in lego technic. 
+
+The steering is a more complex version of the arrangement seen on the [854 Go Kart](/vintage-lego/854-go-kart/) set, with turntables used at all the pivot points. Here eight separate turntables are required to put it together.
+
+The gearbox is a little fiddly to operate, given that it obviously has no synchronisation. It feels strange as you build it, that it clearly has three ratios, but then the shifter only has two positions, with the third blocked. This is to do with the drive ratios, and the speed of the engine when the wheels are driving it. When adding a motor added this is changed, using this additional ratio to allow the power available to move the car without too much strain.
+
+The area in front of the steering seems a little unused, with a large, non-functional grey box. This houses the motor when added, but it does seem like a missed opportunity to add some other feature.
+
+Possibly my favourite element of the set is the adjustable seats, which are very complex given the types of parts available  set designer when this set was being developed. They have adjustment both forwards and backwards, as well as reclining the back of the seat.  A simple mechanism is included to stop the seat from falling backwards.
