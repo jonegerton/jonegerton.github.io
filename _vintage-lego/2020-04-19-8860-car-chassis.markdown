@@ -2,7 +2,7 @@
 layout: lego-post
 title:  "8860 - Car Chassis"
 date:   2020-04-19 07:15:00 +0000
-last_modified_at: 2020-04-19 07:15:00 +0000
+last_modified_at: 2020-04-19 22:01:00 +0000
 categories: Lego
 permalink: /vintage-lego/8860-car-chassis/
 completeness: 95
@@ -15,13 +15,16 @@ facts:
 image_root: /assets/lego/8860-car-chassis/
 thumb_nail: 8860-side.jpg
 images:
-    - 8852-up-front.jpg
-    - 8852-up-back.jpg
-    - 8852-half-front.jpg
-    - 8852-half-side.jpg
-    - 8852-down-top.jpg
-    - 8852-down-front.jpg
-    - 8852-down-back.jpg
+    - 8860-side.jpg
+    - 8860-side-rear.jpg
+    - 8860-gearbox.jpg
+    - 8860-top.jpg
+    - 8860-steering.jpg
+    - 8860-top-front.jpg
+    - 8860-top-side.jpg
+    - 8860-seat-detail.jpg
+    - 8860-drivetrain.jpg
+    - 8860-front.jpg
 missing_parts_image_credit: Parts images from bricklink.com
 missing_parts:
     x467c12:
@@ -42,12 +45,6 @@ missing_parts:
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x264&idColor=11
         image: https://img.bricklink.com/P/11/x264.jpg
-    3010: 
-        name: Brick 1 x 4
-        color: Light Gray
-        quantity: 5
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3010&idColor=9
-        image: https://img.bricklink.com/P/9/3010.jpg
     3030:
         name: Plate 4 x 10
         color: Light Gray
@@ -56,8 +53,12 @@ missing_parts:
         image: https://img.bricklink.com/P/9/3030.jpg
 ---
 
-This lego robot "transformer" was one of my favourite sets, and it's nice to see it back together. I still find the arms funny, with their lack of elbows.
+In it's day, the 8860 Car Chassis set represented the state-of-the-art in lego technic. 
 
-The racks that extend the wheels do have a tendency to run slightly too far, and the arms need to be well out of the way so that they don't get trapped while transforming from robot to truck.
+The steering is a more complex version of the arrangement seen on the [854 Go Kart](/vintage-lego/854-go-kart/) set, with turntables used at all the pivot points. Here eight separate turntables are required to put it together.
 
-It's great that it is as complete as it is, with only a few parts from one arm missing at the moment.
+The gearbox is a little fiddly to operate, given that it obviously has no synchronisation. It feels strange as you build it, that it clearly has three ratios, but then the shifter only has two positions, with the third blocked. This is to do with the drive ratios, and the speed of the engine when the wheels are driving it. When adding a motor added this is changed, using this additional ratio to allow the power available to move the car without too much strain.
+
+The area in front of the steering seems a little unused, with a large, non-functional grey box. This houses the motor when added, but it does seem like a missed opportunity to add some other feature.
+
+Possibly my favourite element of the set is the adjustable seats, which are very complex given the types of parts available  set designer when this set was being developed. They have adjustment both forwards and backwards, as well as reclining the back of the seat.  A simple mechanism is included to stop the seat from falling backwards.
