@@ -2,10 +2,10 @@
 layout: lego-post
 title:  "8838 - Shock Cycle"
 date:   2020-04-09 22:10:00:00 +0000
-last_modified_at: 2020-04-09 22:10:00 +0000
+last_modified_at: 2020-04-23 19:25:00 +0000
 categories: Lego
 permalink: /vintage-lego/8838-shock-cycle/
-completeness: 99
+completeness: 100
 facts:
     Year: 1991
     Category: Technic
@@ -19,14 +19,6 @@ images:
     - 8838-back.jpg
     - 8838-side.jpg
     - 8838-gearbox.jpg
-missing_parts_image_credit: Parts images from bricklink.com
-missing_parts:
-    2429:
-        name: Rubber Band Small (Square Cross Section)
-        color: Black
-        quantity: 2
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x88&idColor=11
-        image: https://www.bricklink.com/PL/x88.jpg?1
 ---
 
 It was obvious even with all the old lego in a single box that I had most of the parts for the Shock Cycle, since the wheels and shocks absorbers were all easily found.

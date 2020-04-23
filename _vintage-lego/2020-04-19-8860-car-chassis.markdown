@@ -2,10 +2,10 @@
 layout: lego-post
 title:  "8860 - Car Chassis"
 date:   2020-04-19 07:15:00 +0000
-last_modified_at: 2020-04-19 22:01:00 +0000
+last_modified_at: 2020-04-23 19:31:00 +0000
 categories: Lego
 permalink: /vintage-lego/8860-car-chassis/
-completeness: 95
+completeness: 98
 facts:    
     Year: 1980
     Category: Technic - Expert Builder
@@ -33,12 +33,6 @@ missing_parts:
         quantity: 4
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x467c12&idColor=11
         image: https://img.bricklink.com/P/11/x467c12.jpg
-    x151: 
-        name: Rubber Band Extra Small (Square Cross Section)
-        color: Black
-        quantity: 2
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x151&idColor=11
-        image: https://img.bricklink.com/P/11/x151.jpg
     x264: 
         name: Rubber Band Large (Square Cross Section)
         color: Black
