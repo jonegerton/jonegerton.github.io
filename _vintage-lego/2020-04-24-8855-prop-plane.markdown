@@ -1,0 +1,33 @@
+---
+layout: lego-post
+title:  "8855 - Prop Plane"
+date:   2020-04-24 11:20:00:00 +0000
+last_modified_at: 2020-04-24 11:20:00 +0000
+categories: Lego
+permalink: /vintage-lego/8855-prop-plane/
+completeness: 99
+facts:
+    Year: 1988
+    Category: Technic
+    Parts: 588
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8855-1#T=I
+    Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/8855/Propeller_Plane
+image_root: /assets/lego/8855-prop-plane/
+thumb_nail: 8855-side.jpg
+images:
+    - 8838-side.jpg
+missing_parts_image_credit: Parts images from bricklink.com
+missing_parts:
+    3069bp06: 
+        name: Technic Figure Blue Legs, Red Top with Zipper, Blue Arms, Black Hair, White Helmet
+        color: N/A
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=tech011
+        image: https://img.bricklink.com/M/tech011.jpg
+---
+
+The lego prop plane (8855) was one of my largest sets, and happily I still had the vast majority of the pieces, including all of the special wing rib pieces. Overall its an impressive set - the largest overall that I own when fully built (I don't count the airpot runway in that!)
+
+I thought I had the minifig too, but it turns out that I have the top half of the minifig from the Lego Rallye support truck (8850) and the legs from this set. Plus one other foot. I've no idea where the rest could have gone.
+
+The action to control the tail and ailerons from the same stick is clever, but even this time around the tail action isn't great - it tends to get stick in the support and pull the stick end off.

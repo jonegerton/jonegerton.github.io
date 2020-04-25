@@ -22,14 +22,7 @@ images:
     - 8852-down-top.jpg
     - 8852-down-front.jpg
     - 8852-down-back.jpg
-missing_parts_image_credit: Parts images from bricklink.com
-missing_parts:
-    3069bp06: 
-        name: Tile 1 x 2 with Groove with Arrow Long Yellow with Black Border Pattern
-        color: Light Gray
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069bp06&idColor=9
-        image: https://img.bricklink.com/P/9/3069bp06.jpg
+git 
     4221: 
         name: Arm Grab Jaw
         color: Light Gray
