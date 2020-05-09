@@ -2,7 +2,7 @@
 layout: lego-post
 title:  "6950 - Mobile Rocket Transport"
 date:   2020-04-25 22:13:00 +0000
-last_modified_at: 2020-04-25 22:13:00 +0000
+last_modified_at: 2020-05-08 08:45:00 +0000
 categories: Lego
 permalink: /vintage-lego/6950-mobile-rocket-transport/
 completeness: 95
@@ -21,6 +21,7 @@ facts:
     Parts: 197
     Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?id=5438#T=I
     Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/6950/Mobile_Rocket_Transport
+missing_parts_image_credit: Parts images from bricklink.com
 missing_parts:
   3962a:
     name: "Minifigure Accessory, Radio with Compact Handle"
@@ -28,25 +29,13 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3962a&idColor=11
     image: https://img.bricklink.com/P/11/3962a.jpg
-  3010p04:
-    name: "Brick 1 x 4 with Black Grille Pattern - 15 Bars"
-    color: "Light Gray"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3010p04&idColor=9
-    image: https://img.bricklink.com/P/9/3010p04.jpg
   3943a:
     name: "Cone 4 x 4 x 2 without Axle Hole"
     color: "Light Gray"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3943a&idColor=9
     image: https://img.bricklink.com/P/9/3943a.jpg
-  4081a:
-    name: "Plate, Modified 1 x 1 with Clip Light - Thin Ring"
-    color: "Light Gray"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4081a&idColor=9
-    image: https://img.bricklink.com/P/9/4081a.jpg
-   3839a:
+  3839a:
     name: "Plate, Modified 1 x 2 with Handles - Round Ends, Mid"
     color: "Light Gray"
     quantity: 1
@@ -64,7 +53,6 @@ missing_parts:
     quantity: 2
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=hngpltS&idColor=3
     image: https://img.bricklink.com/P/3/hngpltS.jpg
-missing_parts_image_credit: Parts images from bricklink.com
 ---
 
 Before I really got into Technic Lego, I mostly had Space sets, and this was one of those I could clearly remember when I started the project, and was keen to build.
