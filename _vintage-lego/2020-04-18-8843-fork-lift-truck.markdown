@@ -24,6 +24,18 @@ images:
     - 8843-down-front.jpg
 missing_parts_image_credit: Parts images from bricklink.com
 missing_parts:
+    4276:
+        name: Hinge Plate 1 x 2 with 2 Fingers
+        color: Yellow
+        quantity: 2
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4276&idColor=3
+        image: https://img.bricklink.com/P/3/4276.jpg
+    4275:
+        name: Hinge Plate 1 x 2 with 3 Fingers
+        color: Yellow
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4275&idColor=3
+        image: https://img.bricklink.com/P/3/4275.jpg
     3709b:
         name: Technic Plate 2 x 4 with 3 Holes
         color: Black
