@@ -26,7 +26,7 @@ missing_parts:
         color: Yellow
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3021&idColor=3
-        image: https://www.bricklink.com/catalogItemPic.asp?P=3021
+        image: https://img.bricklink.com/P/3/3021.jpg
     2815: 
         name: Technic, Wedge Belt Wheel Tire
         color: Black
