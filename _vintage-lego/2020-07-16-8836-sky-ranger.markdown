@@ -1,0 +1,39 @@
+---
+layout: lego-post
+title:  "8836 - Sky Ranger"
+date:   2020-07-16 23:10:00:00 +0000
+last_modified_at: 2020-07-16 23:10:00 +0000
+categories: Lego
+permalink: /vintage-lego/8836-sky-ranger/
+completeness: 99
+facts:
+    Year: 1992
+    Category: Technic
+    Parts: 274
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8836-1#T=S&O={%22iconly%22:0}
+    Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/8836/Propeller_Plane
+image_root: /assets/lego/8836-sky-ranger/
+thumb_nail: 8836-front.jpg
+images:
+    - 8836-front.jpg
+    - 8836-back.jpg
+    - 8836-side.jpg
+missing_parts_image_credit: Parts images from bricklink.com
+missing_parts:
+    3021: 
+        name: Plate 2 x 3
+        color: Yellow
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3021&idColor=3
+        image: https://img.bricklink.com/P/3/3021.jpg
+    2815: 
+        name: Technic, Wedge Belt Wheel Tire
+        color: Black
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=2815&idColor=11
+        image: https://img.bricklink.com/P/11/2815.jpg
+---
+
+It was obvious even with all the old lego in a single box that I had most of the parts for the Shock Cycle, since the wheels and shocks absorbers were all easily found.
+
+The Shock Cycle is quite a simple model. It's interesting to contrast this model with the newer [Technic Motocross Bike 42007](https://www.bricklink.com/v2/catalog/catalogitem.page?S=42007-1#T=I), which used the same shock absorber parts on the front forks. The more recent model certainly has an updated look to the back of the bike.
