@@ -28,12 +28,6 @@ missing_parts:
     quantity: 2
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023&idColor=11
     image: https://img.bricklink.com/P/11/3023.jpg     
-  3957:
-    name: "Antenna 1 x 4 - Round Top"
-    color: "Transparent Red"
-    quantity: 2
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3957&idColor=17
-    image: https://img.bricklink.com/P/17/3957.jpg   
   3069bp25:
     name: "Tile 1 x 2 with Groove with Red and Black Buttons Computer Pattern"
     color: "White"
