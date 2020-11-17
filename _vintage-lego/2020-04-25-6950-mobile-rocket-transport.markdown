@@ -53,6 +53,30 @@ missing_parts:
     quantity: 2
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=hngpltS&idColor=3
     image: https://img.bricklink.com/P/3/hngpltS.jpg
+  4032:
+    name: "Plate, Round 2 x 2 with Axle Hole"
+    color: "Black"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4032&idColor=11
+    image: https://img.bricklink.com/P/11/4032.jpg  
+  4085a:
+    name: "Plate, Modified 1 x 1 with Open O Clip Thin (Vertical Grip)"
+    color: "Light Gray"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4085a&idColor=9
+    image: https://img.bricklink.com/P/9/4085a.jpg  
+  sp007:
+    name: "Minifigure, Classic Space - with Airtanks"
+    color: "Yellow"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=sp007
+    image: https://img.bricklink.com/M/sp007.jpg  
+  3838:
+    name: "Minifigure Accessory, Airtanks"
+    color: "Yellow"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3838&idColor=3
+    image: https://img.bricklink.com/P/3/3838.jpg 
 ---
 
 Before I really got into Technic Lego, I mostly had Space sets, and this was one of those I could clearly remember when I started the project, and was keen to build.
