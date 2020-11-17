@@ -96,7 +96,11 @@ layout: default
     {%- for id in page.missing_parts -%}  
     {% assign part = id[1] %}  
     <div class="parts-row">
-      <div class="parts-image-ctr"><img class="parts-image" src="{{ part.image }}" alt="part {{ id[0] }}" /></div>
+      <div class="parts-image-ctr">
+        {%- if part.image -%}
+        <img class="parts-image" src="{{ part.image }}" alt="part {{ id[0] }}" />
+        {%- endif -%}      
+      </div>
       <div class="parts-details">
         <div class="parts-link"><a href="{{ part.link }}" target="_top">{{ id[0] }}</a></div>
         <div class="parts-quantity">{{ part.quantity }}</div>
