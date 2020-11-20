@@ -91,9 +91,33 @@ missing_parts:
   3795:
     name: "Plate 2 x 6"
     color: "Red"
-    quantity: 3
+    quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3795&idColor=5
-    image: https://img.bricklink.com/P/5/3795.jpg            
+    image: https://img.bricklink.com/P/5/3795.jpg
+  3480:
+    name: "Propeller 2 Blade Helicopter Tail"
+    color: "White"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3480&idColor=1
+    image: https://img.bricklink.com/P/1/3480.jpg
+  3069bpb001:
+    name: "Tile 1 x 2 with Groove with 'POLICE' Pattern"
+    color: "White"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069bpb001&idColor=1
+    image: https://img.bricklink.com/P/1/3069bpb001.jpg
+  3624:
+    name: "Minifigure, Headgear Hat, Police"
+    color: "White"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3624&idColor=1
+    image: https://img.bricklink.com/P/1/3624.jpg
+  193b2:
+    name: "Minifigure, Headgear Helmet Space / Town with Thick Chin Strap - with Visor Dimples"
+    color: "White"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=193b2&idColor=1
+    image: https://img.bricklink.com/P/1/193b2.jpg
 missing_parts_image_credit: Parts images from bricklink.com
 ---
 
