@@ -20,18 +20,24 @@ images:
     - 8836-side.jpg
 missing_parts_image_credit: Parts images from bricklink.com
 missing_parts:
-    3021: 
-        name: Plate 2 x 3
-        color: Yellow
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3021&idColor=3
-        image: https://img.bricklink.com/P/3/3021.jpg
-    2815: 
-        name: Technic, Wedge Belt Wheel Tire
-        color: Black
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=2815&idColor=11
-        image: https://img.bricklink.com/P/11/2815.jpg
+  2901:
+    name: "Technic, Flex Cable End, Ball Connection"
+    color: "Black"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=2901&idColor=11
+    image: https://img.bricklink.com/P/11/2901.jpg
+  bb0008c05L:
+    name: "Technic, Flex Cable (Stud Measure) 5L"
+    color: "Light Gray"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0008c05L&idColor=9
+    image: https://img.bricklink.com/P/9/bb0008c05L.jpg  
+  x88:
+    name: "Rubber Band Small (Square Cross Section)"
+    color: "Black"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x88&idColor=11
+    image: https://img.bricklink.com/P/11/x88.jpg
 ---
 
 It was obvious even with all the old lego in a single box that I had most of the parts for the Shock Cycle, since the wheels and shocks absorbers were all easily found.
