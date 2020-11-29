@@ -2,7 +2,7 @@
 layout: lego-post
 title:  "6929 - Starfleet Voyager"
 date:   2020-04-07 19:37:00 +0000
-last_modified_at: 2020-04-07 19:37:00 +0000
+last_modified_at: 2020-09-07 19:45:00 +0000
 categories: Lego
 permalink: /vintage-lego/6929-starfleet-voyager/
 completeness: 95
@@ -22,18 +22,6 @@ facts:
     Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=6929-1#T=I
     Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/6929/Starfleet_Voyager
 missing_parts:
-  3900:
-    name: "Minifigure Accessory, Signal Holder / Paddle"
-    color: "Black"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3900&idColor=11
-    image: https://img.bricklink.com/P/11/3900.jpg
-  4006:
-    name: "Minifigure Accessory, Tool Spanner Wrench / Screwdriver"
-    color: "Black"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4006&idColor=11
-    image: https://img.bricklink.com/P/11/4006.jpg 
   3837:
     name: "Minifigure Accessory, Shovel (Round Stem End)"
     color: "Dark Grey"
@@ -46,28 +34,16 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3835&idColor=9
     image: https://img.bricklink.com/P/9/3835.jpg    
-  3029:
-    name: "Plate 4 x 12"
-    color: "Light Grey"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3029&idColor=9
-    image: https://img.bricklink.com/P/9/3029.jpg     
   3004p90:
     name: "Brick 1 x 2 with Classic Space Logo Pattern"
     color: "White"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3004p90&idColor=1
-    image: https://img.bricklink.com/P/1/3004p90.jpg  
-  3853:
-    name: "Window 1 x 4 x 3 with Shutter Tabs"
-    color: "White"
-    quantity: 2
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3853&idColor=1
-    image: https://img.bricklink.com/P/1/3853.jpg              
+    image: https://img.bricklink.com/P/1/3004p90.jpg
 missing_parts_image_credit: Parts images from bricklink.com
 ---
 
-Before I really got into Technic Lego, I mostly had Space sets, and this was one of those I could clearly remember when I started the project, and was keen to build.
+Before I really got into Technic Lego, I mostly had Space sets, and this was one of those I could clearly remember when I started the my vintage lego project, and was I was really keen to see it rebuilt.
 
 The Starfleet Voyager has some nice features, but I've found now that it must have been very frustrating to play with. Its very easy to knock off the grey dishes and cones towards the front especially.
 

@@ -39,12 +39,18 @@ missing_parts:
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x264&idColor=11
         image: https://img.bricklink.com/P/11/x264.jpg
-    3030:
-        name: Plate 4 x 10
-        color: Light Gray
+    3832:
+        name: Plate 2 x 10
+        color: Black
         quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3030&idColor=9
-        image: https://img.bricklink.com/P/9/3030.jpg
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3832&idColor=11
+        image: https://img.bricklink.com/P/11/3832.jpg   
+    3710:
+        name: Plate 1 x 4
+        color: Blue
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3710&idColor=7
+        image: https://img.bricklink.com/P/7/3710.jpg                 
 ---
 
 In it's day, the 8860 Car Chassis set represented the state-of-the-art in lego technic. 
