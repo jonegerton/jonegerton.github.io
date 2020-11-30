@@ -1,0 +1,39 @@
+---
+layout: lego-post
+title:  "8836 - Sky Ranger"
+date:   2020-07-16 23:10:00:00 +0000
+last_modified_at: 2020-07-16 23:10:00 +0000
+categories: Lego
+permalink: /vintage-lego/8836-sky-ranger/
+completeness: 98
+facts:
+    Year: 1992
+    Category: Technic
+    Parts: 274
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8836-1#T=S&O={%22iconly%22:0}
+    Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/8836/Propeller_Plane
+image_root: /assets/lego/8836-sky-ranger/
+thumb_nail: logo.png
+images:
+    - logo.png
+missing_parts_image_credit: Parts images from bricklink.com
+missing_parts:
+  2901:
+    name: "Technic, Flex Cable End, Ball Connection"
+    color: "Black"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=2901&idColor=11
+    image: https://img.bricklink.com/P/11/2901.jpg
+  bb0008c05L:
+    name: "Technic, Flex Cable (Stud Measure) 5L"
+    color: "Light Gray"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0008c05L&idColor=9
+    image: https://img.bricklink.com/P/9/bb0008c05L.jpg  
+  x88:
+    name: "Rubber Band Small (Square Cross Section)"
+    color: "Black"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x88&idColor=11
+    image: https://img.bricklink.com/P/11/x88.jpg
+---
