@@ -1,0 +1,45 @@
+---
+layout: lego-post
+title:  "6884 - Aero Module"
+date:   2020-11-17 20:15:00 +0000
+last_modified_at: 2020-11-30 18:21:00 +0000
+categories: Lego
+permalink: /vintage-lego/6884-aero-module/
+completeness: 95
+image_root: /assets/lego/6884-aero-module/
+thumb_nail: logo.png
+images:
+    - logo.png
+facts:
+    Year: 1987
+    Category: Space - Futuron
+    Parts: 91
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=6884-1
+    Instructions: http://lego.brickinstructions.com/lego_instructions/set/6884/Aero_Module
+missing_parts:
+  3024:
+    name: "Plate 1 x 1"
+    color: "Black"
+    quantity: 2
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3024&idColor=11
+    image: https://img.bricklink.com/P/11/3024.jpg 
+  3023:
+    name: "Plate 1 x 2"
+    color: "Black"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023&idColor=11
+    image: https://img.bricklink.com/P/11/3023.jpg     
+  4593:
+    name: "Antenna Small Lever"
+    color: "White"
+    quantity: 2
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4593&idColor=1
+    image: https://img.bricklink.com/P/1/4593.jpg    
+  2342:
+    name: "Minifigure, Utensil Control Panel"
+    color: "White"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=2342&idColor=1
+    image: https://img.bricklink.com/P/1/2342.jpg      
+missing_parts_image_credit: Parts images from bricklink.com
+---
