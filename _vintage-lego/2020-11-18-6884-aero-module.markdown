@@ -1,7 +1,7 @@
 ---
 layout: lego-post
 title:  "6884 - Aero Module"
-date:   2020-11-17 20:15:00 +0000
+date:   2020-11-18 20:15:00 +0000
 last_modified_at: 2020-11-30 18:21:00 +0000
 categories: Lego
 permalink: /vintage-lego/6884-aero-module/
