@@ -2,19 +2,14 @@
 layout: lego-post
 title:  "6950 - Mobile Rocket Transport"
 date:   2020-04-25 22:13:00 +0000
-last_modified_at: 2020-05-08 08:45:00 +0000
+last_modified_at: 2020-11-30 18:01:00 +0000
 categories: Lego
 permalink: /vintage-lego/6950-mobile-rocket-transport/
-completeness: 95
+completeness: 90
 image_root: /assets/lego/6950-mobile-rocket-transport/
-thumb_nail: 6950-mobile-rocket-transport.jpg
+thumb_nail: logo.png
 images:
-    - 6929-front-side.jpg
-    - 6929-side.jpg
-    - 6929-rear.jpg
-    - 6929-front.jpg
-    - 6929-open.jpg
-    - 6929-cockpit.jpg
+    - logo.png
 facts:
     Year: 1982
     Category: Space
@@ -78,14 +73,3 @@ missing_parts:
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3838&idColor=3
     image: https://img.bricklink.com/P/3/3838.jpg 
 ---
-
-Before I really got into Technic Lego, I mostly had Space sets, and this was one of those I could clearly remember when I started the project, and was keen to build.
-
-The Starfleet Voyager has some nice features, but I've found now that it must have been very frustrating to play with. Its very easy to knock off the grey dishes and cones towards the front especially.
-
-Reference site listings on Brick Link and Toys Period include a number of odd parts that don't feature on the site instructions, such as a Black space gun / castle torch (3959), a Black 1x2 Plate with handles (3839), and a few minifigure accessories.
-
-The instructions for the set at times include an odd white glow are new parts that are being added in an attempt to highlight them. There aren't separate insets showing which parts or required for each build step.
-
-Sadly, although I do have all my Window frame parts (3853), they're all missing some or all of the shutter tabs, so they'll need to be replaced to get the set back together.
-
