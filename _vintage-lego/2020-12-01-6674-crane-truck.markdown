@@ -1,0 +1,19 @@
+---
+layout: lego-post
+title:  "6674 - Crane Truck"
+date:   2020-12-01 18:20:17:00 +0000
+last_modified_at: 2020-12-01 18:20:17:00 +0000
+categories: Lego
+permalink: /vintage-lego/6674-crane-truck/
+completeness: 100
+image_root: /assets/lego/6674-crane-truck/
+thumb_nail: logo.png
+images:
+    - logo.png
+facts:
+    Year: 1988
+    Category: Town
+    Parts: 86
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=6674-1
+    Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/6674/Crane_Truck
+---
