@@ -2,28 +2,28 @@
 layout: lego-post
 title:  "8855 - Prop Plane"
 date:   2020-04-24 11:20:00:00 +0000
-last_modified_at: 2020-04-24 11:20:00 +0000
+last_modified_at: 2020-12-07 23:41:00 +0000
 categories: Lego
 permalink: /vintage-lego/8855-prop-plane/
 completeness: 99
 facts:
     Year: 1988
     Category: Technic
-    Parts: 588
+    Parts: 573
     Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8855-1#T=I
     Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/8855/Propeller_Plane
 image_root: /assets/lego/8855-prop-plane/
-thumb_nail: 8855-side.jpg
+thumb_nail: logo.png
 images:
-    - 8838-side.jpg
+    - logo.png
 missing_parts_image_credit: Parts images from bricklink.com
 missing_parts:
     3069bp06: 
         name: Technic Figure Blue Legs, Red Top with Zipper, Blue Arms, Black Hair, White Helmet
         color: N/A
         quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=tech011
-        image: https://img.bricklink.com/M/tech011.jpg
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=tech040a
+        image: https://img.bricklink.com/M/tech040a.jpg
 ---
 
 The lego prop plane (8855) was one of my largest sets, and happily I still had the vast majority of the pieces, including all of the special wing rib pieces. Overall its an impressive set - the largest overall that I own when fully built (I don't count the airpot runway in that!)
