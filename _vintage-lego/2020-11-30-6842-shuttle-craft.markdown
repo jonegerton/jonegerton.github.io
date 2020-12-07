@@ -1,0 +1,33 @@
+---
+layout: lego-post
+title:  "6842 - Shuttle Craft"
+date:   2020-11-30 18:16:37:00 +0000
+last_modified_at: 2020-11-30 18:16:37:00 +0000
+categories: Lego
+permalink: /vintage-lego/6842-shuttle-craft/
+completeness: 95
+image_root: /assets/lego/6842-shuttle-craft/
+thumb_nail: logo.png
+images:
+    - logo.png
+facts:
+    Year: 1981
+    Category: Space
+    Parts: 41
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=6842-1
+    Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/6842/Shuttle_Craft
+missing_parts:
+  4081a:
+    name: "Plate, Modified 1 x 1 with Light Attachment - Thin Ring"
+    color: "White"
+    quantity: 2
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4081a&idColor=1
+    image: https://img.bricklink.com/P/1/4081a.jpg
+  193a2:
+    name: "Minifigure, Headgear Helmet Space / Town with Thin Chin Strap - with Visor Dimples"
+    color: "Red"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=193a2&idColor=5
+    image: https://img.bricklink.com/P/5/193a2.jpg
+missing_parts_image_credit: Parts images from bricklink.com
+---

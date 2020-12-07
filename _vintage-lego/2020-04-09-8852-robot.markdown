@@ -2,10 +2,10 @@
 layout: lego-post
 title:  "8852 - Robot"
 date:   2020-04-09 20:55:00 +0000
-last_modified_at: 2020-04-19 08:40:00 +0000
+last_modified_at: 2020-05-08 08:55:00 +0000
 categories: Lego
 permalink: /vintage-lego/8852-robot/
-completeness: 95
+completeness: 99
 facts:
     Year: 1987
     Category: Technic
@@ -22,19 +22,14 @@ images:
     - 8852-down-top.jpg
     - 8852-down-front.jpg
     - 8852-down-back.jpg
-git 
+missing_parts_image_credit: Parts images from bricklink.com
+missing_parts:
     4221: 
         name: Arm Grab Jaw
         color: Light Gray
         quantity: 2
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4221&idColor=9
         image: https://img.bricklink.com/P/9/4221.jpg
-    3069bp05: 
-        name: Tile 1 x 2 with Groove with Black Grille Pattern
-        color: Yellow
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069bp05&idColor=3
-        image: https://img.bricklink.com/P/3/3069bp05.jpg
     3666:
         name: Plate 1 x 6
         color: Yellow
