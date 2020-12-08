@@ -2,7 +2,7 @@
 layout: lego-post
 title:  "8855 - Prop Plane"
 date:   2020-04-24 11:20:00:00 +0000
-last_modified_at: 2020-12-07 23:41:00 +0000
+last_modified_at: 2020-12-08 23:31:00 +0000
 categories: Lego
 permalink: /vintage-lego/8855-prop-plane/
 completeness: 99
@@ -24,6 +24,24 @@ missing_parts:
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=tech040a
         image: https://img.bricklink.com/M/tech040a.jpg
+    3023: 
+        name: Plate 1 x 2
+        color: Red
+        quantity: 2
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023&idColor=5
+        image: https://img.bricklink.com/P/5/3023.jpg
+    4459: 
+        name: Technic, Pin with Friction Ridges Lengthwise without Center Slots
+        color: Black
+        quantity: 5
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4459&idColor=11
+        image: https://img.bricklink.com/P/11/4459.jpg
+    4477: 
+        name: Plate 1 x 10
+        color: Yellow
+        quantity: 1
+        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4477&idColor=3
+        image: https://img.bricklink.com/P/3/4477.jpg
 ---
 
 The lego prop plane (8855) was one of my largest sets, and happily I still had the vast majority of the pieces, including all of the special wing rib pieces. Overall its an impressive set - the largest overall that I own when fully built (I don't count the airpot runway in that!)
