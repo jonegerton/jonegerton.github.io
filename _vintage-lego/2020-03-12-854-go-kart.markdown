@@ -5,7 +5,6 @@ date:   2020-03-12 22:44:00 +0000
 last_modified_at: 2020-04-03 19:31:00 +0000
 categories: Lego
 permalink: /vintage-lego/854-go-kart/
-completeness: 99
 image_root: /assets/lego/854-go-kart/
 thumb_nail: 854-side.jpg
 images:

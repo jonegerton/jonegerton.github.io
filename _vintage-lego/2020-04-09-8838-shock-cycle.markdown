@@ -5,7 +5,6 @@ date: 2020-04-09 22:10:00 +0000
 last_modified_at: 2020-04-23 19:25:00 +0000
 categories: Lego
 permalink: /vintage-lego/8838-shock-cycle/
-completeness: 99
 facts:
     Year: 1991
     Category: Technic

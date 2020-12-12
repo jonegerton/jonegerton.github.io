@@ -5,7 +5,6 @@ date:   2020-11-30 18:16:00 +0000
 last_modified_at: 2020-11-30 18:16:00 +0000
 categories: Lego
 permalink: /vintage-lego/6842-shuttle-craft/
-completeness: 95
 image_root: /assets/lego/6842-shuttle-craft/
 thumb_nail: logo.png
 images:

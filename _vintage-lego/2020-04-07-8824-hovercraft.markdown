@@ -5,7 +5,6 @@ date:   2020-04-07 20:25:00 +0000
 last_modified_at: 2020-04-23 19:21:00 +0000
 categories: Lego
 permalink: /vintage-lego/8824-hovercraft/
-completeness: 100
 image_root: /assets/lego/8824-hovercraft/
 thumb_nail: 8824-front-side.jpg
 images:

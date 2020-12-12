@@ -30,26 +30,27 @@ layout: default
    {%- include gallery.html images = page.images image_root = page.image_root -%}
   {%- endif -%}
   
-  {%- if page.completeness -%}
-    {%- if page.completeness == 100 -%}
-      {%- assign completeClass="complete" -%}
-      {%- assign completeDesc="Complete" -%}
-    {%- elsif page.completeness > 80 -%}
-      {%- assign completeClass="nearly" -%}
-      {%- assign completeDesc="Incomplete - " | append: page.completeness | append: "%" -%}
-    {%- else -%}
-      {%- assign completeClass="incomplete" -%}
-      {%- assign completeDesc="Incomplete - " | append: page.completeness | append: "%" -%}
-    {%- endif -%}
-    <section class="completeness">
-      <header>
-        <h3>
-          Completeness:
-          <span class="completeness-value {{ completeClass }}"> {{completeDesc}} </span>
-        </h3>
-      </header>
-    </section>       
+  {%- assign partsFloat = page.facts.Parts | times: 1.0 %}
+  {%- assign missingperc = page.missing_parts.size | times: 100 | divided_by: partsFloat | ceil -%}
+  {%- assign completeperc = 100 | minus: missingperc -%}
+  {%- if completeperc == 100 -%}
+    {%- assign completeClass="complete" -%}
+    {%- assign completeDesc="Complete" -%}
+  {%- elsif completeperc > 80 -%}
+    {%- assign completeClass="nearly" -%}
+    {%- assign completeDesc="Incomplete - " | append: completeperc | append: "%" -%}
+  {%- else -%}
+    {%- assign completeClass="incomplete" -%}
+    {%- assign completeDesc="Incomplete - " | append: completeperc | append: "%" -%}
   {%- endif -%}
+  <section class="completeness">
+    <header>
+      <h3>
+        Completeness:
+        <span class="completeness-value {{ completeClass }}"> {{completeDesc}} </span>
+      </h3>
+    </header>
+  </section>    
 
   {%- if page.facts -%}
   <section class="facts">

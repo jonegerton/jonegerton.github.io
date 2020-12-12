@@ -5,7 +5,6 @@ date:   2020-04-18 10:55:00 +0000
 last_modified_at: 2020-04-18 10:55:00 +0000
 categories: Lego
 permalink: /vintage-lego/8843-fork-lift-truck/
-completeness: 98
 facts:
     Year: 1984
     Category: Technic

@@ -5,7 +5,6 @@ date: 2020-11-29 22:34:00 +0000
 last_modified_at: 2020-11-29 22:34:00 +0000
 categories: Lego
 permalink: /vintage-lego/8837-pneumatic-excavator/
-completeness: 90
 image_root: /assets/lego/8837-pneumatic-excavator/
 thumb_nail: logo.png
 images:

@@ -5,7 +5,6 @@ date: 2020-11-18 20:15:00 +0000
 last_modified_at: 2020-11-30 18:21:00 +0000
 categories: Lego
 permalink: /vintage-lego/6884-aero-module/
-completeness: 95
 image_root: /assets/lego/6884-aero-module/
 thumb_nail: logo.png
 images:

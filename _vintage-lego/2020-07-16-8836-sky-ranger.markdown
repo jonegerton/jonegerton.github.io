@@ -5,7 +5,6 @@ date:   2020-07-16 23:10:00 +0000
 last_modified_at: 2020-07-16 23:10:00 +0000
 categories: Lego
 permalink: /vintage-lego/8836-sky-ranger/
-completeness: 98
 facts:
     Year: 1992
     Category: Technic

@@ -81,15 +81,18 @@ todo_list:
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
   {%- assign sorted = posts | sort: 'last_modified_at' -%}
   {%- for post in sorted reversed -%} 
-    {%- if post.completeness == 100 -%}
-        {%- assign completeClass="complete" -%}
-        {%- assign completeDesc="Complete" -%}
-    {%- elsif post.completeness > 80 -%}
-        {%- assign completeClass="nearly" -%}
-        {%- assign completeDesc="Incomplete - " | append: post.completeness | append: "%" -%}
+    {%- assign partsFloat = post.facts.Parts | times: 1.0 %}
+    {%- assign missingperc = post.missing_parts.size | times: 100 | divided_by: partsFloat | ceil -%}
+    {%- assign completeperc = 100 | minus: missingperc -%}
+    {%- if completeperc == 100 -%}
+      {%- assign completeClass="complete" -%}
+      {%- assign completeDesc="Complete" -%}
+    {%- elsif completeperc > 80 -%}
+      {%- assign completeClass="nearly" -%}
+      {%- assign completeDesc="Incomplete - " | append: completeperc | append: "%" -%}
     {%- else -%}
-        {%- assign completeClass="incomplete" -%}
-        {%- assign completeDesc="Incomplete - " | append: post.completeness | append: "%" -%}
+      {%- assign completeClass="incomplete" -%}
+      {%- assign completeDesc="Incomplete - " | append: completeperc | append: "%" -%}
     {%- endif -%}
   <a href="{{ post.url | relative_url }}" target="_top" class="set-row">
     <div class="set-image-ctr"><img class="set-image" src="{{ post.image_root | append: 'thumb-' | append: post.thumb_nail }}" alt="{{ post.title }}" /></div>

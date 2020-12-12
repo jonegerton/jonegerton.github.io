@@ -5,7 +5,6 @@ date:   2020-12-01 18:20:00 +0000
 last_modified_at: 2020-12-01 18:20:00 +0000
 categories: Lego
 permalink: /vintage-lego/6674-crane-truck/
-completeness: 100
 image_root: /assets/lego/6674-crane-truck/
 thumb_nail: logo.png
 images:

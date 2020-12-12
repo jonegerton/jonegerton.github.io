@@ -5,7 +5,6 @@ date:   2020-11-08 19:37:00 +0000
 last_modified_at: 2020-11-30 18:55:00 +0000
 categories: Lego
 permalink: /vintage-lego/6392-airport/
-completeness: 90
 image_root: /assets/lego/6392-airport/
 thumb_nail: logo.png
 images:

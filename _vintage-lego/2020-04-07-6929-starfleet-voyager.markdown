@@ -5,7 +5,6 @@ date:   2020-04-07 19:37:00 +0000
 last_modified_at: 2020-09-07 19:45:00 +0000
 categories: Lego
 permalink: /vintage-lego/6929-starfleet-voyager/
-completeness: 95
 image_root: /assets/lego/6929-starfleet-voyager/
 thumb_nail: 6929-front-side.jpg
 images:

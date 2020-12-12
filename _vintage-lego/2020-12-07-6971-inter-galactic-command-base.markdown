@@ -5,7 +5,6 @@ date:   2020-12-07 23:11:00 +0000
 last_modified_at: 2020-12-07 23:11:00 +0000
 categories: Lego
 permalink: /vintage-lego/6971-inter-galactic-command-base/
-completeness: 85
 image_root: /assets/lego/6971-inter-galactic-command-base/
 thumb_nail: logo.png
 images:

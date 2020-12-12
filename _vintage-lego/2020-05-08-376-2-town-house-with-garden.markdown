@@ -5,7 +5,6 @@ date:   2020-05-08 07:55:00 +0000
 last_modified_at: 2020-11-29 23:08:00 +0000
 categories: Lego
 permalink: /vintage-lego/376-2-town-house-with-garden/
-completeness: 98
 facts:
     Year: 1978
     Category: Town

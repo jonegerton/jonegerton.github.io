@@ -5,7 +5,6 @@ date:   2020-04-25 22:13:00 +0000
 last_modified_at: 2020-11-30 18:01:00 +0000
 categories: Lego
 permalink: /vintage-lego/6950-mobile-rocket-transport/
-completeness: 90
 image_root: /assets/lego/6950-mobile-rocket-transport/
 thumb_nail: logo.png
 images:

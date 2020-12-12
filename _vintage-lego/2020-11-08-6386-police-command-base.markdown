@@ -5,7 +5,6 @@ date:   2020-11-08 22:14:00 +0000
 last_modified_at: 2020-11-30 19:05:00 +0000
 categories: Lego
 permalink: /vintage-lego/6386-police-command-base/
-completeness: 90
 image_root: /assets/lego/6386-police-command-base/
 thumb_nail: logo.png
 images:

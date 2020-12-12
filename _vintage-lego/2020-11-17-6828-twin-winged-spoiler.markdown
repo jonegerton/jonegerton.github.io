@@ -5,7 +5,6 @@ date:   2020-11-30 18:10:00 +0000
 last_modified_at: 2020-11-30 18:10:00 +0000
 categories: Lego
 permalink: /vintage-lego/6828-twin-winged-spoiler/
-completeness: 95
 image_root: /assets/lego/6828-twin-winged-spoiler/
 thumb_nail: logo.png
 images:
