@@ -1,7 +1,7 @@
 ---
 layout: lego-post
 title:  "8855 - Prop Plane"
-date:   2020-04-24 11:20:00:00 +0000
+date:   2020-04-24 11:20:00 +0000
 last_modified_at: 2020-12-08 23:31:00 +0000
 categories: Lego
 permalink: /vintage-lego/8855-prop-plane/

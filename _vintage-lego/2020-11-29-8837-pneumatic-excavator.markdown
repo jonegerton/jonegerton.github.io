@@ -1,7 +1,7 @@
 ---
 layout: lego-post
-title:  "8837 - Pneumatic Excavator"
-date:   2020-11-29 22:34:00 +0000
+title: "8837 - Pneumatic Excavator"
+date: 2020-11-29 22:34:00 +0000
 last_modified_at: 2020-11-29 22:34:00 +0000
 categories: Lego
 permalink: /vintage-lego/8837-pneumatic-excavator/
