@@ -1,0 +1,57 @@
+---
+layout: lego-post
+title:  "8854 - Power Crane"
+date: 2020-12-17 18:11:00 +0000
+last_modified_at: 2020-12-17 18:11:00 +0000
+categories: Lego
+permalink: /vintage-lego/8854-power-crane/
+image_root: /assets/lego/8854-power-crane/
+thumb_nail: logo.png
+images:
+    - logo.png
+facts:
+    Year: 1989
+    Category: Technic
+    Parts: 518
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=8854-1
+    Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/8854/Salvage_Hoist
+    Known As: Salvage Hoist
+missing_parts:
+  70644:
+    name: "Technic, Hook Large Metal"
+    color: "Black"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=70644&idColor=11
+    image: https://img.bricklink.com/P/11/70644.jpg
+  3623:
+    name: "Plate 1 x 3"
+    color: "Light Grey"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3623&idColor=9
+    image: https://img.bricklink.com/P/9/3623.jpg
+  2797c03:
+    name: "Pneumatic Cylinder with 2 Inlets Medium (48mm) with Yellow Top"
+    color: "Yellow"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=2797c03&idColor=3
+    image: https://img.bricklink.com/P/3/2797c03.jpg
+  5102c05:
+    name: "Hose, Pneumatic 4mm D. 5L / 4.0cm"
+    color: "Black"
+    quantity: 2
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=5102c05&idColor=11
+    image: https://img.bricklink.com/P/11/5102c05.jpg
+  x77:
+    name: "String, Cord (Undetermined Type)"
+    color: "Black"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x77&idColor=11
+    image: https://img.bricklink.com/P/11/x77.jpg    
+  5102c27:
+    name: "Hose, Pneumatic 4mm D. 27L / 21.6cm"
+    color: "Light Gray"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=5102c27&idColor=9
+    image: https://img.bricklink.com/images/noImage.gif
+missing_parts_image_credit: Parts images from bricklink.com
+---
