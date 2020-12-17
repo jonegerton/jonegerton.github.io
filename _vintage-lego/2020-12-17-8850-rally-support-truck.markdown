@@ -64,6 +64,12 @@ missing_parts:
     quantity: 4
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3021&idColor=3
     image: https://img.bricklink.com/P/3/3021.jpg  
+  3702:
+    name: "Technic, Brick 1 x 8 with Holes"
+    color: "Yellow"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3702&idColor=3
+    image: https://img.bricklink.com/P/3/3702.jpg  
 
 missing_parts_image_credit: Parts images from bricklink.com
 ---
