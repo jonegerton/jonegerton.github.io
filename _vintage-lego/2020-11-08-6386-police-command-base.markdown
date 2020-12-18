@@ -82,12 +82,6 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3795&idColor=5
     image: https://img.bricklink.com/P/5/3795.jpg
-  3069bpb001:
-    name: "Tile 1 x 2 with Groove with 'POLICE' Pattern"
-    color: "White"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069bpb001&idColor=1
-    image: https://img.bricklink.com/P/1/3069bpb001.jpg
   3624:
     name: "Minifigure, Headgear Hat, Police"
     color: "White"
