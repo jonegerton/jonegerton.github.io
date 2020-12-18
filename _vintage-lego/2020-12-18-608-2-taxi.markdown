@@ -1,0 +1,26 @@
+---
+layout: lego-post
+title:  "608-2 - Taxi"
+date:   2020-12-18 23:15:00 +0000
+last_modified_at: 2020-12-18 23:15:00 +0000
+categories: Lego
+permalink: /vintage-lego/608-2-taxi/
+image_root: /assets/lego/608-2-taxi/
+thumb_nail: logo.png
+images:
+    - logo.png
+facts:
+    Year: 1979
+    Category: Town
+    Parts: 17
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=608-2
+    Instructions: https://www.toysperiod.com/lego-set-reference/town/classic-town/traffic/lego-608-2-taxi/
+missing_parts:
+  trn088:
+    name: "Suit with 3 Buttons Black - Blue Legs, Black Hat"
+    color: "Trans-Yellow"
+    quantity: 3
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=trn088
+    image: https://img.bricklink.com/M/trn088.jpg
+missing_parts_image_credit: Parts images from bricklink.com
+---
