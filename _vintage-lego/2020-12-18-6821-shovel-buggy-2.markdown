@@ -1,0 +1,53 @@
+---
+layout: lego-post
+title:  "6821 - Shovel Buggy (2)"
+date:   2020-12-20 17:00:00 +0000
+last_modified_at: 2020-12-20 17:00:00 +0000
+categories: Lego
+permalink: /vintage-lego/6821-shovel-buggy-2/
+image_root: /assets/lego/6821-shovel-buggy/
+thumb_nail: logo.png
+images:
+    - logo.png
+facts:
+    Year: 1980
+    Category: Space
+    Parts: 19
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=6821-1
+    Instructions: https://lego.brickinstructions.com/lego_instructions/set/6821/Geological_Inspection
+    Known As: Geological Inspection
+missing_parts:
+  3962a:
+    name: "Minifigure, Utensil Radio with Compact Handle"
+    color: "Black"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3962a&idColor=11
+    image: https://img.bricklink.com/P/11/3962a.jpg
+  795:
+    name: "Arm Piece with Disk and 2 Fingers"
+    color: "Light Gray"
+    quantity: 1
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=795&idColor=0
+    image: https://img.bricklink.com/images/noImage.gif
+  3612:
+    name: "Arm Piece Straight with 2 and 3 Fingers"
+    color: "Light Gray"
+    quantity: 2
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3612&idColor=9
+    image: https://img.bricklink.com/P/9/3612.jpg
+  3613:
+    name: "Arm Piece with Tow Ball Socket, 3 Fingers"
+    color: "Light Gray"
+    quantity: 2
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3613&idColor=9
+    image: https://img.bricklink.com/P/9/3613.jpg
+  193au:
+    name: "Headgear Helmet Space / Town with Thin Chin Strap"
+    color: "White"
+    quantity: 2
+    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=193au&idColor=1
+    image: https://img.bricklink.com/P/1/193au.jpg
+
+    
+missing_parts_image_credit: Parts images from bricklink.com
+---
