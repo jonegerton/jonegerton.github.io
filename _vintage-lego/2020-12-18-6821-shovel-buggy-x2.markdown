@@ -1,0 +1,21 @@
+---
+layout: lego-post
+title:  "6821 - Shovel Buggy x2"
+date:   2020-12-18 23:30:00 +0000
+last_modified_at: 2020-12-18 23:30:00 +0000
+categories: Lego
+permalink: /vintage-lego/6821-shovel-buggy/
+image_root: /assets/lego/6821-shovel-buggy/
+thumb_nail: logo.png
+images:
+    - logo.png
+facts:
+    Year: 1980
+    Category: Space
+    Parts: 19
+    Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=6821-1
+    Instructions: https://lego.brickinstructions.com/lego_instructions/set/6821/Geological_Inspection
+    Known As: Geological Inspection
+missing_parts:
+missing_parts_image_credit: Parts images from bricklink.com
+---
