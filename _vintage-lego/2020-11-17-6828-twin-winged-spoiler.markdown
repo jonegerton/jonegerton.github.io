@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "6828"
 title:  "6828 - Twin Winged Spoiler"
 date:   2020-11-30 18:10:00 +0000
 last_modified_at: 2020-11-30 18:10:00 +0000

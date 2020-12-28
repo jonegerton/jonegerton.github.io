@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "8843"
 title:  "8843 - Fork Lift Truck"
 date:   2020-04-18 10:55:00 +0000
 last_modified_at: 2020-04-18 10:55:00 +0000

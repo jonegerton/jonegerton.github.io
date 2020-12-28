@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "8852"
 title:  "8852 - Robot"
 date:   2020-04-09 20:55:00 +0000
 last_modified_at: 2020-05-08 08:55:00 +0000

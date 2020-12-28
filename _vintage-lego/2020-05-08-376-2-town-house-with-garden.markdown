@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "376-2"
 title:  "376-2 - Town House With Garden"
 date:   2020-05-08 07:55:00 +0000
 last_modified_at: 2020-11-29 23:08:00 +0000

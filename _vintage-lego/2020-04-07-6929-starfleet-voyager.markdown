@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "6929"
 title:  "6929 - Starfleet Voyager"
 date:   2020-04-07 19:37:00 +0000
 last_modified_at: 2020-09-07 19:45:00 +0000

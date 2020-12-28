@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "6971"
 title:  "6971 - Inter-Galactic Command Base"
 date:   2020-12-07 23:11:00 +0000
 last_modified_at: 2020-12-07 23:11:00 +0000

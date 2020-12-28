@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "6674"
 title:  "6674 - Crane Truck"
 date:   2020-12-01 18:20:00 +0000
 last_modified_at: 2020-12-01 18:20:00 +0000

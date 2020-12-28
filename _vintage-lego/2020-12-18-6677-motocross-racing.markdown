@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "6677"
 title:  "6677 - Motocross Racing"
 date:   2020-12-18 22:25:00 +0000
 last_modified_at: 2020-12-18 22:25:00 +0000

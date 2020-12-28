@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "6628"
 title:  "6628 - Shell Tow Truck"
 date:   2020-12-18 22:25:00 +0000
 last_modified_at: 2020-12-18 22:25:00 +0000

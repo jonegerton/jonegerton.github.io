@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "6386"
 title:  "6386 - Police Command Base"
 date:   2020-11-08 22:14:00 +0000
 last_modified_at: 2020-11-30 19:05:00 +0000

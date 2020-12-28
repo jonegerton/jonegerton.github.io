@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "1711"
 title:  "1711 - Ice Planet Scooter Polybag"
 date:   2020-12-20 17:16:00 +0000
 last_modified_at: 2020-12-20 17:16:00 +0000

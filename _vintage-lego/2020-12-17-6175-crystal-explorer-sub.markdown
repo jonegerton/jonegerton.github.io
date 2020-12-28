@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "6175"
 title:  "6175 - Crystal Explorer Sub"
 date: 2020-12-17 22:55:00 +0000
 last_modified_at: 2020-12-17 22:55:00 +0000

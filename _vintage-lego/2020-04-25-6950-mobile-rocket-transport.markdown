@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "6950"
 title:  "6950 - Mobile Rocket Transport"
 date:   2020-04-25 22:13:00 +0000
 last_modified_at: 2020-11-30 18:01:00 +0000

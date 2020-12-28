@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "8854"
 title:  "8854 - Power Crane"
 date: 2020-12-17 18:11:00 +0000
 last_modified_at: 2020-12-17 18:11:00 +0000

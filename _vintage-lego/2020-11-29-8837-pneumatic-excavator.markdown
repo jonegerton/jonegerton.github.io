@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "8837"
 title: "8837 - Pneumatic Excavator"
 date: 2020-11-29 22:34:00 +0000
 last_modified_at: 2020-11-29 22:34:00 +0000

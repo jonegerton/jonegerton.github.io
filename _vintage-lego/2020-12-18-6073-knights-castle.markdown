@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "6073"
 title:  "6073 - Knight's Castle"
 date: 2020-12-18 13:01:00 +0000
 last_modified_at: 2020-12-18 13:01:00 +0000

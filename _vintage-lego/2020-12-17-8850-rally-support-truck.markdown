@@ -1,5 +1,6 @@
 ---
 layout: lego-post
+kitid: "8850"
 title:  "8850 - Rally Support Truck"
 date: 2020-12-17 19:21:00 +0000
 last_modified_at: 2020-12-17 19:21:00 +0000
