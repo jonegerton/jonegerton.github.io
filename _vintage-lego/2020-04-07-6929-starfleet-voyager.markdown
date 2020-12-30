@@ -30,7 +30,7 @@ missing_parts:
     image: https://img.bricklink.com/P/10/3837.jpg 
   3835:
     name: "Minifigure Accessory,Axe"
-    color: "Light Grey"
+    color: "Light Gray"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3835&idColor=9
     image: https://img.bricklink.com/P/9/3835.jpg    

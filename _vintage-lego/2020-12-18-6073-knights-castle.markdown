@@ -25,13 +25,13 @@ missing_parts:
     image: https://img.bricklink.com/P/11/3957.jpg
   3005:
     name: "Brick 1 x 1"
-    color: "Light Grey"
+    color: "Light Gray"
     quantity: 4
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3005&idColor=9
     image: https://img.bricklink.com/P/9/3005.jpg
   3622:
     name: "Brick 1 x 3"
-    color: "Light Grey"
+    color: "Light Gray"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3622&idColor=9
     image: https://img.bricklink.com/P/9/3622.jpg
