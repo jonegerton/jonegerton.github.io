@@ -50,31 +50,31 @@ missing_parts:
         image: https://img.bricklink.com/P/9/3034.jpg 
     4073c01: 
         name: Plate, Round 1 x 1, 2 on Sprue
-        color: Trans-Green
+        color: Transparent Green
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4073c01&idColor=20
         image: https://img.bricklink.com/P/20/4073c01.jpg    
     3957: 
         name: Antenna 1 x 4 - Round Top
-        color: Trans-Red
+        color: Transparent Red
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3957&idColor=17
         image: https://img.bricklink.com/P/17/3957.jpg 
     3876: 
         name: Minifigure, Shield Round with Stud
-        color: Trans-Red
+        color: Transparent Red
         quantity: 2
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3876&idColor=17
         image: https://img.bricklink.com/P/17/3876.jpg        
     3762: 
         name: Glass for Window 1 x 6 x 5
-        color: Trans-Yellow
+        color: Transparent Yellow
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3762&idColor=19
         image: https://img.bricklink.com/P/19/3762.jpg    
     3030: 
         name: Plate 4 x 10
-        color: Trans-Yellow
+        color: Transparent Yellow
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3030&idColor=19
         image: https://img.bricklink.com/P/19/3030.jpg

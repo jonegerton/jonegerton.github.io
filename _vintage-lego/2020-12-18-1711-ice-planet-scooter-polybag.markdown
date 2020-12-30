@@ -19,7 +19,7 @@ facts:
 missing_parts:
   x42:
     name: "Minifigure, Visor with Horizontal Slit and Antenna"
-    color: "Trans-Neon Orange"
+    color: "Transparent Neon Orange"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x42&idColor=18
     image: https://img.bricklink.com/P/18/x42.jpg
