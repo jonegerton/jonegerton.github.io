@@ -43,13 +43,13 @@ missing_parts:
     image: https://img.bricklink.com/P/6/608px1.jpg
   4448:
     name: "Glass for Window 4 x 4 x 3 Roof"
-    color: "Transparent Clear"
+    color: "Transparent"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4448&idColor=12
     image: https://img.bricklink.com/P/12/4448.jpg 
   4872:
     name: "Windscreen 3 x 4 x 4 Inverted"   
-    color: "Transparent Clear"
+    color: "Transparent"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4872&idColor=12
     image: https://img.bricklink.com/P/12/4872.jpg 
