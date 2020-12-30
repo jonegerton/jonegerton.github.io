@@ -24,7 +24,7 @@ facts:
 missing_parts:
   3837:
     name: "Minifigure Accessory, Shovel (Round Stem End)"
-    color: "Dark Grey"
+    color: "Dark Gray"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3837&idColor=10
     image: https://img.bricklink.com/P/10/3837.jpg 
