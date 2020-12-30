@@ -25,7 +25,7 @@ missing_parts:
     image: https://img.bricklink.com/P/11/3009.jpg
   6386stk01:
     name: "Sticker Sheet for Set 6386 - (190805)"
-    color: "N/A"
+    color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=6386stk01&idColor=0
     image: https://img.bricklink.com/P/0/6386stk01.jpg

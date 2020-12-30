@@ -31,7 +31,7 @@ missing_parts:
     image: https://img.bricklink.com/P/15/3823.jpg
   s010:
     name: "'S' - White with Red / Black Stripe, White Legs, Black Classic Helmet"
-    color: "N/A"
+    color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=s010
     image: https://img.bricklink.com/M/s010.jpg

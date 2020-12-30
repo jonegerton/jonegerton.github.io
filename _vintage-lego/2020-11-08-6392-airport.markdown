@@ -91,13 +91,13 @@ missing_parts:
     image: https://img.bricklink.com/P/11/3901.jpg      
   air003:
     name: "Minifigure, Airport - Classic, White Legs, Red Cap"   
-    color: "N/A"
+    color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=air003
     image: https://img.bricklink.com/M/air002.jpg
   air002:
     name: "Minifigure, Airport - Pilot, Black Legs, Black Hat"   
-    color: "N/A"
+    color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=air002
     image: https://img.bricklink.com/M/air003.jpg      
@@ -109,19 +109,19 @@ missing_parts:
     image: https://img.bricklink.com/P/11/4530.jpg
   zip005:
     name: "Minifigure, Jacket with Zipper - Blue, Blue Legs, Red Classic Helmet"   
-    color: "N/A"
+    color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=zip005
     image: https://img.bricklink.com/M/zip005.gif
   cop001:
     name: "Minifigure, Police - Suit with 4 Buttons, Black Legs, White Hat"   
-    color: "N/A"
+    color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=cop001
     image: https://img.bricklink.com/M/cop001.jpg    
   trn069:
     name: "Minifigure, Suit with 3 Buttons Blue - Black Legs, Black Male Hair"   
-    color: "N/A"
+    color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=trn069
     image: https://img.bricklink.com/M/trn069.jpg

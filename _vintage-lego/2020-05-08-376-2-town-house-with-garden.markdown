@@ -26,13 +26,13 @@ missing_parts:
     image: https://img.bricklink.com/P/3/3742c01.jpg
   pln024:
     name: "Plain Blue Torso with Blue Arms, Red Legs, Black Pigtails Hair"
-    color: "N/A"
+    color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=pln024
     image: https://img.bricklink.com/M/pln024.jpg
   pln046:
     name: "Plain Black Torso with Black Arms, Blue Legs, Red Hat"
-    color: "N/A"
+    color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=pln024
     image: https://img.bricklink.com/M/pln046.jpg   

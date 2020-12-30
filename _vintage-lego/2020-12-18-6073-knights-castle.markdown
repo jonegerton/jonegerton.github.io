@@ -49,13 +49,13 @@ missing_parts:
     image: https://img.bricklink.com/P/11/3844.jpg
   cas175:
     name: "Minifigure, Breastplate - Black, Black Legs with Red Hips, Black Grille Helmet, Red Plume, Red Plastic Cape"
-    color: "N/A"
+    color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=cas175
     image: https://img.bricklink.com/M/cas175.gif 
   cas183:
     name: "Minifigure, Breastplate - Blue with Black Arms, Black Legs with Red Hips, Dark Gray Grille Helmet, Black Plume, Black Plastic Cape"
-    color: "N/A"
+    color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=cas183
     image: https://img.bricklink.com/M/cas183.gif
