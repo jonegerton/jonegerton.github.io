@@ -35,5 +35,6 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=s010
     image: https://img.bricklink.com/M/s010.jpg
+    boid: 456612
 missing_parts_image_credit: Parts images from bricklink.com
 ---
