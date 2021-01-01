@@ -29,7 +29,7 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069bp25&idColor=1
     image: https://img.bricklink.com/P/1/3069bp25.jpg
-  3069bp25:
+  2447:
     name: "Minifigure, Visor Standard"
     color: "Transparent Dark Blue"
     quantity: 1
