@@ -115,12 +115,14 @@ missing_parts:
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4590&idColor=1
         image: https://img.bricklink.com/P/1/4590.jpg   
     193au (black): 
+        id: 193au
         name: Minifigure, Headgear Helmet Space / Town with Thin Chin Strap
         color: Black
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=193au&idColor=11
         image: https://img.bricklink.com/P/11/193au.jpg
     193au (blue): 
+        id: 193au
         name: Minifigure, Headgear Helmet Space / Town with Thin Chin Strap
         color: Blue
         quantity: 1

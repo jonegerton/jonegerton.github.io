@@ -61,11 +61,12 @@ missing_parts:
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4085a&idColor=9
     image: https://img.bricklink.com/P/9/4085a.jpg  
   sp007:
-    name: "Minifigure, Classic Space - with Airtanks"
-    color: "Yellow"
+    name: "Minifigure, Classic Space Yellow - with Airtanks"
+    color: "No Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=sp007
     image: https://img.bricklink.com/M/sp007.jpg  
+    boid: 353116
   3838:
     name: "Minifigure Accessory, Airtanks"
     color: "Yellow"

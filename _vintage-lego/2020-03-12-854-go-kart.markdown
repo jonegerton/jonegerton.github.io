@@ -29,6 +29,7 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=854stk01&idColor=0
     image: https://img.bricklink.com/P/0/854stk01.jpg
+    boid: 36984
   x467c12:
     name: Hose, Classic 4mm D. 12L / 9.6cm (flexible)
     color: Black

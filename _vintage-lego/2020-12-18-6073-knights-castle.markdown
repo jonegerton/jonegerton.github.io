@@ -53,12 +53,14 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=cas175
     image: https://img.bricklink.com/M/cas175.gif 
+    boid: 735887
   cas183:
     name: "Minifigure, Breastplate - Blue with Black Arms, Black Legs with Red Hips, Dark Gray Grille Helmet, Black Plume, Black Plastic Cape"
     color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=cas183
     image: https://img.bricklink.com/M/cas183.gif
+    boid: 263584
   4502c:
     name: "Minifigure, Plume Feather Large"
     color: "Black"
@@ -66,6 +68,7 @@ missing_parts:
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4502c&idColor=11
     image: https://img.bricklink.com/P/11/4502c.jpg
   4502a-black:
+    id: 4502a
     name: "Minifigure, Plume Feather Small"
     color: "Black"
     quantity: 1
@@ -97,6 +100,7 @@ missing_parts:
     image: https://img.bricklink.com/P/10/3847a.jpg
   3846px9:
     name: "Minifigure, Shield Triangular with Black Falcon and Blue Border Pattern"
+    boid: 851092
     color: "Light Gray"
     quantity: 3
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3846px9&idColor=9
@@ -108,6 +112,7 @@ missing_parts:
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3846p46&idColor=9
     image: https://img.bricklink.com/P/9/3846p46.jpg
   4502a-red:
+    id: 4502a
     name: "Minifigure, Plume Feather Small"
     color: "Red"
     quantity: 1

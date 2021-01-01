@@ -30,12 +30,14 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=pln024
     image: https://img.bricklink.com/M/pln024.jpg
+    boid: 702557
   pln046:
     name: "Plain Black Torso with Black Arms, Blue Legs, Red Hat"
     color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=pln024
     image: https://img.bricklink.com/M/pln046.jpg   
+    boid: 579739
 ---
 
 A proper classic set, 376-2 - Town House With Garden is a nice looking model, with some nice interior details. 

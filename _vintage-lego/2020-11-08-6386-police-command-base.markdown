@@ -29,6 +29,7 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=6386stk01&idColor=0
     image: https://img.bricklink.com/P/0/6386stk01.jpg
+    boid: 559422
   3062b:
     name: "Brick, Round 1 x 1 Open Stud"
     color: "Black"

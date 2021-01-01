@@ -13,16 +13,17 @@ permalink: /vintage-lego/missing-parts.json
     {%- for post in posts -%} 
         {%- if post.missing_parts -%}
         {
-            "kitid": "{{post.kitid}}",
-            "title": "{{post.title}}",
-            "parts": [
+            "name": "{{post.kitid}}",
+            "description": "{{post.title}}",
+            "pieces": [
                 {%- for id in post.missing_parts -%}  
                     {% assign part = id[1] %} 
                     { 
-                    "id": "{{id[0]}}",
+                    "id": "{{part.id | default: id[0]}}",
                     "qty": "{{part.quantity}}",
                     "color": "{{part.color}}",
-                    "name": "{{part.name}}"
+                    "name": "{{part.name}}",
+                    "boid": "{{part.boid}}"
                     }
                     {% unless forloop.last %},{% endunless %}
                 {%- endfor -%}

@@ -95,12 +95,14 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=air003
     image: https://img.bricklink.com/M/air002.jpg
+    boid: 999713
   air002:
     name: "Minifigure, Airport - Pilot, Black Legs, Black Hat"   
     color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=air002
-    image: https://img.bricklink.com/M/air003.jpg      
+    image: https://img.bricklink.com/M/air003.jpg   
+    boid: 376573   
   4530:
     name: "Minifigure, Hair Female"   
     color: "Black"
@@ -113,17 +115,20 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=zip005
     image: https://img.bricklink.com/M/zip005.gif
+    boid: 111139
   cop001:
     name: "Minifigure, Police - Suit with 4 Buttons, Black Legs, White Hat"   
     color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=cop001
-    image: https://img.bricklink.com/M/cop001.jpg    
+    image: https://img.bricklink.com/M/cop001.jpg   
+    boid: 864895 
   trn069:
     name: "Minifigure, Suit with 3 Buttons Blue - Black Legs, Black Male Hair"   
     color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=trn069
     image: https://img.bricklink.com/M/trn069.jpg
+    boid: 393634
 missing_parts_image_credit: Parts images from bricklink.com
 ---

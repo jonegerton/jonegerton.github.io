@@ -19,9 +19,10 @@ facts:
 missing_parts:
   trn088:
     name: "Suit with 3 Buttons Black - Blue Legs, Black Hat"
-    color: "Transparent Yellow"
+    color: "Not Applicable"
     quantity: 3
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=trn088
     image: https://img.bricklink.com/M/trn088.jpg
+    boid: 586949
 missing_parts_image_credit: Parts images from bricklink.com
 ---
