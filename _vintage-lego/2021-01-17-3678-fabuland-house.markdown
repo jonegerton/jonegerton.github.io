@@ -185,18 +185,21 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=fab5b
     image: https://img.bricklink.com/M/fab5b.gif
+    boid: 681393
   fab6a:
     name: Fabuland Figure Horse 1
     color: Not Applicable
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=fab6a
     image: https://img.bricklink.com/M/fab6a.gif
+    boid: 290204
   Fab7h:
     name: Fabuland Figure Lamb 3
     color: Not Applicable
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=Fab7h
     image: https://img.bricklink.com/M/Fab7h.gif        
+    boid: 768504
 missing_parts_image_credit: Parts images from bricklink.com
 ---
 
