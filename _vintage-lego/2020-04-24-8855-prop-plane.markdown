@@ -18,7 +18,7 @@ images:
     - logo.png
 missing_parts_image_credit: Parts images from bricklink.com
 missing_parts:
-    3069bp06: 
+    tech040a: 
         name: Technic Figure Blue Legs, Red Top with Zipper, Blue Arms, Black Hair, White Helmet
         color: Not Applicable
         quantity: 1
