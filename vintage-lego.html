@@ -5,10 +5,10 @@ permalink: /vintage-lego/index.html
 feed: jonegerton-vintage-lego
 collection: vintage-lego
 
-todo_list:
-  3678:
-    name: The Fabuland House
-    thumb_nail: 3678-fabuland-house.jpg
+#todo_list:
+#  3678:
+#    name: The Fabuland House
+#    thumb_nail: 3678-fabuland-house.jpg
 ---
 
 {% assign collection = page.collection %}
@@ -35,7 +35,7 @@ todo_list:
     Over the years a number of the parts had disappeared (including a huge tyre from the Car Chassis - where could that have possibly gone?!?), so i've filled in the blanks by getting used parts from Brick Owl, rather than getting brand new pieces that would stand out against the very well played with, and often discoloured, pieces in the box.
 </p>
 <p>
-    The first table below lists the sets I've worked on so far, including an estimation of how complete they are based on how many parts are missing. Click through for more details on each set, including a photo gallery of the set. After that is a list of the sets I know I have, that I've not yet started on.
+    The table below lists the sets I've worked on so far, including an estimation of how complete they are based on how many parts are missing. Click through for more details on each set, including a photo gallery of the set.
 </p>
 
 </article>
@@ -78,6 +78,7 @@ todo_list:
   {%- endfor -%}
 </aside>
 
+{%- if page.todo_list -%}
 <aside class="todo-table">
   <header>
     <h3>Todo List</h3>
@@ -90,3 +91,4 @@ todo_list:
   </div>
   {%- endfor -%}
 </aside>
+{%- endif -%}
