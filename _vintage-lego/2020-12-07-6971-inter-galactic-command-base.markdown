@@ -18,12 +18,6 @@ facts:
     Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/6971/Inter-Galactic_Command_Base
 missing_parts_image_credit: Parts images from bricklink.com
 missing_parts:
-    4275a: 
-        name: Hinge Plate 1 x 2 with 3 Fingers and Solid Studs
-        color: Black
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4275a&idColor=11
-        image: https://img.bricklink.com/P/11/4275a.jpg
     x467c12: 
         name: Hose, Classic 4mm D. 12L / 9.6cm (flexible)
         color: Black
@@ -36,18 +30,6 @@ missing_parts:
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3962a&idColor=11
         image: https://img.bricklink.com/P/11/3962a.jpg   
-    4360: 
-        name: Minifigure, Utensil Camera with Side Sight (Space Gun)
-        color: Light Gray
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4360&idColor=9
-        image: https://img.bricklink.com/P/9/4360.jpg   
-    3034: 
-        name: Plate 2 x 8
-        color: Light Gray
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3034&idColor=9
-        image: https://img.bricklink.com/P/9/3034.jpg 
     4073c01: 
         name: Plate, Round 1 x 1, 2 on Sprue
         color: Transparent Green
@@ -84,18 +66,6 @@ missing_parts:
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4591&idColor=1
         image: https://img.bricklink.com/P/1/4591.jpg
-    4229: 
-        name: Engine, Strakes, 2 x 2 Thin Top Plate
-        color: White
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4229&idColor=1
-        image: https://img.bricklink.com/P/1/4229.jpg
-    3034: 
-        name: Plate 2 x 8
-        color: White
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3034&idColor=1
-        image: https://img.bricklink.com/P/1/3034.jpg
     4081a: 
         name: Plate, Modified 1 x 1 with Light Attachment - Thin Ring
         color: White
@@ -107,13 +77,7 @@ missing_parts:
         color: White
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4085a&idColor=1
-        image: https://img.bricklink.com/P/1/4085a.jpg
-    4590: 
-        name: Plate, Modified 1 x 4 Offset
-        color: White
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4590&idColor=1
-        image: https://img.bricklink.com/P/1/4590.jpg   
+        image: https://img.bricklink.com/P/1/4085a.jpg 
     193au (black): 
         id: 193au
         name: Minifigure, Headgear Helmet Space / Town with Thin Chin Strap
@@ -128,22 +92,4 @@ missing_parts:
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=193au&idColor=7
         image: https://img.bricklink.com/P/7/193au.jpg
-    3666: 
-        name: Plate 1 x 6
-        color: Blue
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3666&idColor=7
-        image: https://img.bricklink.com/P/7/3666.jpg  
-    3666: 
-        name: Plate 1 x 6
-        color: Blue
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3666&idColor=7
-        image: https://img.bricklink.com/P/7/3666.jpg      
-    3069b: 
-        name: Tile 1 x 2 with Groove
-        color: Blue
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069b&idColor=7
-        image: https://img.bricklink.com/P/7/3069b.jpg
 ---

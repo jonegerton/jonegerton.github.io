@@ -23,12 +23,6 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=2348a&idColor=15 
     image: https://img.bricklink.com/P/15/2348a.jpg
-  3823:
-    name: "Windscreen 2 x 4 x 2"
-    color: "Transparent Light Blue"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3823&idColor=15 
-    image: https://img.bricklink.com/P/15/3823.jpg
   s010:
     name: "'S' - White with Red / Black Stripe, White Legs, Black Classic Helmet"
     color: "Not Applicable"

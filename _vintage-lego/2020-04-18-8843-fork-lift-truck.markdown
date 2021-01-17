@@ -24,48 +24,18 @@ images:
     - 8843-down-front.jpg
 missing_parts_image_credit: Parts images from bricklink.com
 missing_parts:
-    4276:
-        name: Hinge Plate 1 x 2 with 2 Fingers
-        color: Yellow
-        quantity: 2
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4276&idColor=3
-        image: https://img.bricklink.com/P/3/4276.jpg
     4275:
         name: Hinge Plate 1 x 2 with 3 Fingers
         color: Yellow
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4275&idColor=3
         image: https://img.bricklink.com/P/3/4275.jpg
-    3709b:
-        name: Technic Plate 2 x 4 with 3 Holes
-        color: Black
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3709b&idColor=11
-        image: https://img.bricklink.com/P/11/3709b.jpg
     4265a:
         name: Technic Bush 1/2 Toothed Type I
         color: Light Gray
         quantity: 1
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4265a&idColor=9
         image: https://img.bricklink.com/P/9/4265a.jpg
-    3701:
-        name: Technic Brick 1 x 4 with Holes
-        color: Red
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3701&idColor=5
-        image: https://img.bricklink.com/P/5/3701.jpg
-    3894:
-        name: Technic Brick 1 x 6 with Holes
-        color: Red
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3894&idColor=5
-        image: https://img.bricklink.com/P/5/3894.jpg   
-    3737:
-        name: Technic Axle 10
-        color: Black
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3737&idColor=11
-        image: https://img.bricklink.com/P/11/3737.jpg      
     5102c60:
         name: Pneumatic Hose 4mm D. 60L / 48.0cm
         color: Black

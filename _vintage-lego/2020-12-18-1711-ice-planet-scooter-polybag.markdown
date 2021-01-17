@@ -23,11 +23,5 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=x42&idColor=18
     image: https://img.bricklink.com/P/18/x42.jpg
-  2446:
-    name: "Minifigure, Headgear Helmet Motorcycle (Standard)"
-    color: "White"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=2446&idColor=1
-    image: https://img.bricklink.com/P/1/2446.jpg
 missing_parts_image_credit: Parts images from bricklink.com
 ---

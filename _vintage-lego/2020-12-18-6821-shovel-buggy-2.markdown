@@ -42,12 +42,6 @@ missing_parts:
     quantity: 2
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3613&idColor=9
     image: https://img.bricklink.com/P/9/3613.jpg
-  193au:
-    name: "Headgear Helmet Space / Town with Thin Chin Strap"
-    color: "White"
-    quantity: 2
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=193au&idColor=1
-    image: https://img.bricklink.com/P/1/193au.jpg
 
     
 missing_parts_image_credit: Parts images from bricklink.com

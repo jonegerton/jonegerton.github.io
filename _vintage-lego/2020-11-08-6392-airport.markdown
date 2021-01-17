@@ -17,18 +17,6 @@ facts:
     Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=6392-1
     Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/6392/Airport
 missing_parts:
-  4276:
-    name: "Hinge Plate 1 x 2 with 2 Fingers"
-    color: "Black"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4276&idColor=11
-    image: https://img.bricklink.com/P/11/4276.jpg
-  4275:
-    name: "Hinge Plate 1 x 2 with 3 Fingers"
-    color: "Black"
-    quantity: 2
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4275&idColor=11
-    image: https://img.bricklink.com/P/11/4275.jpg
   4347:
     name: "Window 1 x 4 x 5 with Fixed Glass"
     color: "Black"
@@ -53,62 +41,25 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4872&idColor=12
     image: https://img.bricklink.com/P/12/4872.jpg 
-  3010:
-    name: "Brick 1 x 4"   
-    color: "White"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3010&idColor=1
-    image: https://img.bricklink.com/P/1/3010.jpg
   3942p1:
     name: "Cone 2 x 2 x 2 with Horizontal Red Stripes Pattern"   
     color: "White"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3942p1&idColor=1
-    image: https://img.bricklink.com/P/1/3942p1.jpg   
-  3900:
-    name: "Minifigure, Utensil Signal Paddle"   
-    color: "White"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3900&idColor=1
-    image: https://img.bricklink.com/P/1/3900.jpg   
+    image: https://img.bricklink.com/P/1/3942p1.jpg    
   4073c01:
     name: "Plate, Round 1 x 1, 2 on Sprue"   
     color: "White"
     quantity: 8
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4073c01&idColor=1
     image: https://img.bricklink.com/P/1/4073c01.jpg      
-  3068b:
-    name: "Tile 2 x 2 with Groove"   
-    color: "White"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3068b&idColor=1
-    image: https://img.bricklink.com/P/1/3068b.jpg  
-  3901:
-    name: "Minifigure, Hair Male"   
-    color: "Black"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3901&idColor=11
-    image: https://img.bricklink.com/P/11/3901.jpg      
   air003:
     name: "Minifigure, Airport - Classic, White Legs, Red Cap"   
     color: "Not Applicable"
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=air003
-    image: https://img.bricklink.com/M/air002.jpg
+    image: https://img.bricklink.com/M/air003.jpg
     boid: 999713
-  air002:
-    name: "Minifigure, Airport - Pilot, Black Legs, Black Hat"   
-    color: "Not Applicable"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=air002
-    image: https://img.bricklink.com/M/air003.jpg   
-    boid: 376573   
-  4530:
-    name: "Minifigure, Hair Female"   
-    color: "Black"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4530&idColor=11
-    image: https://img.bricklink.com/P/11/4530.jpg
   zip005:
     name: "Minifigure, Jacket with Zipper - Blue, Blue Legs, Red Classic Helmet"   
     color: "Not Applicable"
@@ -116,13 +67,6 @@ missing_parts:
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=zip005
     image: https://img.bricklink.com/M/zip005.gif
     boid: 111139
-  cop001:
-    name: "Minifigure, Police - Suit with 4 Buttons, Black Legs, White Hat"   
-    color: "Not Applicable"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?M=cop001
-    image: https://img.bricklink.com/M/cop001.jpg   
-    boid: 864895 
   trn069:
     name: "Minifigure, Suit with 3 Buttons Blue - Black Legs, Black Male Hair"   
     color: "Not Applicable"

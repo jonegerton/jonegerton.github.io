@@ -18,18 +18,6 @@ facts:
     Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/8854/Salvage_Hoist
     Known As: Salvage Hoist
 missing_parts:
-  70644:
-    name: "Technic, Hook Large Metal"
-    color: "Black"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=70644&idColor=11
-    image: https://img.bricklink.com/P/11/70644.jpg
-  3623:
-    name: "Plate 1 x 3"
-    color: "Light Gray"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3623&idColor=9
-    image: https://img.bricklink.com/P/9/3623.jpg
   2797c03:
     name: "Pneumatic Cylinder with 2 Inlets Medium (48mm) with Yellow Top"
     color: "Yellow"

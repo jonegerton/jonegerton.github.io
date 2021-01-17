@@ -56,7 +56,7 @@ missing_parts:
   75c10:
     name: "Hose, Rigid 3mm D. 10L / 8.0cm"
     color: "Dark Gray"
-    quantity: 2
+    quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=75c10&idColor=10
     image: https://img.bricklink.com/P/10/75c10.jpg
   5102c02:

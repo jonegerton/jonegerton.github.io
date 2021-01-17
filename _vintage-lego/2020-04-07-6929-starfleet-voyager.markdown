@@ -22,24 +22,6 @@ facts:
     Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=6929-1#T=I
     Instructions: https://lego.brickinstructions.com/en/lego_instructions/set/6929/Starfleet_Voyager
 missing_parts:
-  3837:
-    name: "Minifigure Accessory, Shovel (Round Stem End)"
-    color: "Dark Gray"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3837&idColor=10
-    image: https://img.bricklink.com/P/10/3837.jpg 
-  3835:
-    name: "Minifigure Accessory,Axe"
-    color: "Light Gray"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3835&idColor=9
-    image: https://img.bricklink.com/P/9/3835.jpg    
-  3004p90:
-    name: "Brick 1 x 2 with Classic Space Logo Pattern"
-    color: "White"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3004p90&idColor=1
-    image: https://img.bricklink.com/P/1/3004p90.jpg
 missing_parts_image_credit: Parts images from bricklink.com
 ---
 

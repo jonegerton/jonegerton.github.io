@@ -20,33 +20,9 @@ missing_parts:
   3957:
     name: "Antenna 1 x 4 - Round Top"
     color: "Black"
-    quantity: 2
+    quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3957&idColor=11
     image: https://img.bricklink.com/P/11/3957.jpg
-  3005:
-    name: "Brick 1 x 1"
-    color: "Light Gray"
-    quantity: 4
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3005&idColor=9
-    image: https://img.bricklink.com/P/9/3005.jpg
-  3622:
-    name: "Brick 1 x 3"
-    color: "Light Gray"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3622&idColor=9
-    image: https://img.bricklink.com/P/9/3622.jpg
-  4498:
-    name: "Minifigure, Arrow Quiver with Two Arrows"
-    color: "Brown"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4498&idColor=8
-    image: https://img.bricklink.com/P/8/4498.jpg
-  3844:
-    name: "Minifigure, Headgear Helmet Castle with Neck Protector"
-    color: "Black"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3844&idColor=11
-    image: https://img.bricklink.com/P/11/3844.jpg
   cas175:
     name: "Minifigure, Breastplate - Black, Black Legs with Red Hips, Black Grille Helmet, Red Plume, Red Plastic Cape"
     color: "Not Applicable"
@@ -80,35 +56,17 @@ missing_parts:
     quantity: 2
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4499&idColor=8
     image: https://img.bricklink.com/P/8/4499.jpg
-  4497:
-    name: "Minifigure, Weapon Pike / Spear - Round End"
-    color: "Brown"
-    quantity: 3
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4497&idColor=8
-    image: https://img.bricklink.com/P/8/4497.jpg
-  3849:
-    name: "Minifigure, Weapon Lance"
-    color: "Dark Gray"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3849&idColor=10
-    image: https://img.bricklink.com/P/10/3849.jpg
-  3847a:
-    name: "Minifigure, Weapon Sword, Shortsword - first version in shiny smooth rigid ABS plastic"
-    color: "Dark Gray"
-    quantity: 2
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3847a&idColor=10
-    image: https://img.bricklink.com/P/10/3847a.jpg
   3846px9:
     name: "Minifigure, Shield Triangular with Black Falcon and Blue Border Pattern"
     boid: 851092
     color: "Light Gray"
-    quantity: 3
+    quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3846px9&idColor=9
     image: https://img.bricklink.com/P/9/3846px9.jpg 
   3846p46:
     name: "Minifigure, Shield Triangular with Black Falcon and Yellow Border Pattern"
     color: "Light Gray"
-    quantity: 3
+    quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3846p46&idColor=9
     image: https://img.bricklink.com/P/9/3846p46.jpg
   4502a-red:
@@ -118,11 +76,5 @@ missing_parts:
     quantity: 1
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4502a&idColor=5
     image: https://img.bricklink.com/P/5/4502a.jpg
-  4495a:
-    name: "Flag 4 x 1 Wave Left"
-    color: "White"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4495a&idColor=1
-    image: https://img.bricklink.com/P/1/4495a.jpg
 missing_parts_image_credit: Parts images from bricklink.com
 ---

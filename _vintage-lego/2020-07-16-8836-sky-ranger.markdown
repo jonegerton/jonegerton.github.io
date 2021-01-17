@@ -27,7 +27,7 @@ missing_parts:
   bb0008c05L:
     name: "Technic, Flex Cable (Stud Measure) 5L"
     color: "Light Gray"
-    quantity: 1
+    quantity: 2
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0008c05L&idColor=9
     image: https://img.bricklink.com/P/9/bb0008c05L.jpg  
   x88:

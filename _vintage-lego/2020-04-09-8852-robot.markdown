@@ -30,12 +30,6 @@ missing_parts:
         quantity: 2
         link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4221&idColor=9
         image: https://img.bricklink.com/P/9/4221.jpg
-    3666:
-        name: Plate 1 x 6
-        color: Yellow
-        quantity: 1
-        link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3666&idColor=3
-        image: https://img.bricklink.com/P/3/3666.jpg
 ---
 
 This lego robot "transformer" was one of my favourite sets, and it's nice to see it back together. I still find the arms funny, with their lack of elbows.

@@ -16,19 +16,7 @@ facts:
     Parts: 91
     Full Details: https://www.bricklink.com/v2/catalog/catalogitem.page?S=6884-1
     Instructions: http://lego.brickinstructions.com/lego_instructions/set/6884/Aero_Module
-missing_parts:
-  3024:
-    name: "Plate 1 x 1"
-    color: "Black"
-    quantity: 2
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3024&idColor=11
-    image: https://img.bricklink.com/P/11/3024.jpg 
-  3023:
-    name: "Plate 1 x 2"
-    color: "Black"
-    quantity: 1
-    link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023&idColor=11
-    image: https://img.bricklink.com/P/11/3023.jpg     
+missing_parts:   
   4593:
     name: "Antenna Small Lever"
     color: "White"

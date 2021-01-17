@@ -17,7 +17,10 @@ permalink: /vintage-lego/missing-parts.json
             "description": "{{post.title}}",
             "pieces": [
                 {%- for id in post.missing_parts -%}  
-                    {% assign part = id[1] %} 
+                    {%- assign part = id[1] -%} 
+                    {%- if part.received == true -%}
+                        {% continue %}  
+                    {%- endif -%}
                     { 
                     "id": "{{part.id | default: id[0]}}",
                     "qty": "{{part.quantity}}",
