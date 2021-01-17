@@ -50,7 +50,7 @@ missing_parts:
   4073c01:
     name: "Plate, Round 1 x 1, 2 on Sprue"   
     color: "White"
-    quantity: 8
+    quantity: 7
     link: https://www.bricklink.com/v2/catalog/catalogitem.page?P=4073c01&idColor=1
     image: https://img.bricklink.com/P/1/4073c01.jpg      
   air003:
