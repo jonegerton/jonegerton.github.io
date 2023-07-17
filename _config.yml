@@ -54,6 +54,8 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+include: [".well-known"]
+
 feed:
   excerpt_only: true
   collections:
