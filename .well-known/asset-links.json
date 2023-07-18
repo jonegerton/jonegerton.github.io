@@ -12,11 +12,15 @@
         }
     },
     {
-        "relation": ["delegate_permission/common.handle_all_urls"],
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
         "target": {
-          "namespace": "android_app",
-          "package_name": "com.ja2.notekeeper",
-          "sha256_cert_fingerprints":
-          ["3B:C6:83:32:A1:55:22:4F:AA:86:8D:27:76:88:65:D6:8F:D6:16:B4:0C:72:13:F5:8F:6A:6C:29:86:10:46:45"]
+            "namespace": "android_app",
+            "package_name": "com.ja2.notekeeper",
+            "sha256_cert_fingerprints": [
+                "3B:C6:83:32:A1:55:22:4F:AA:86:8D:27:76:88:65:D6:8F:D6:16:B4:0C:72:13:F5:8F:6A:6C:29:86:10:46:45"
+            ]
         }
-      }]
+    }
+]
